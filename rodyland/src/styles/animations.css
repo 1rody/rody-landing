@@ -62,3 +62,15 @@
 .anim-scrolling {
   animation: anim-scrolling 50s ease-in-out infinite;
 }
+.project {
+  display: flex;
+  transform: .2s;
+  .information {
+    opacity: 0;
+  }
+  &:hover {
+    .information {
+      opacity: 100;
+    }
+  }
+}
