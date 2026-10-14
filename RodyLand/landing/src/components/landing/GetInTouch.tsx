@@ -1,9 +1,5 @@
-'use client'
-
-export default function ContactForm() {
+export default function Contact() {
     return (
-        <section id="contact-form">
-
-        </section>
-    )
+        <></>
+    );
 }

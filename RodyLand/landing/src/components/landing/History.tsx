@@ -2,7 +2,7 @@
 export default function History() {
     return (
         <section id="history" className="relative lg:flex-nowrap gap-10 flex-wrap z-5 flex min-h-screen top-[60px] w-full items-center overflow-hidden bg-background p-10 shadow-5xl lg:sticky ">
-            <div id="my-perspective-on-web" className="flex flex-col lg:mt-30 lg:mb-70 gap-4 items-end justify-end lg:w-1/2 w-full">
+            <div id="my-perspective-on-web" className="flex flex-col items-center justify-center lg:mt-30 lg:mb-70 gap-4 lg:items-end lg:justify-end lg:w-1/2 w-full">
                 <h2 className="lg:text-9xl lg:mt-0 lg:mb-0 mb-20 md:mb-20 md:text-8xl md:w-full lg:w-fit text-left text-7xl font-black">
                     making <br />
                     systems<br />

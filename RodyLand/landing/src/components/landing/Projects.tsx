@@ -1,60 +1,70 @@
 'use client'
 
-//basic imports
 import Link from "next/link";
 import Image from "next/image";
 
-//other imports
 import Stripe from "@/src/components/landing/misc/Stripe";
 import showInformation from "@/src/utils/card";
 
 export default function Projects() {
+    const projects = [
+        {
+            title: "RodyLanding",
+            description: "Rody.Land is the new version of rody.city, my personal portfolio created to showcase ideas, perspectives and my evolution as developer and software engineering student at UCSAL.",
+            image: "/assets/backgrounds/projects/karasuBanner.png",
+            view: "/",
+            concept: "/pageforconcept"
+        },
+        {
+            title: "Project name",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita.",
+            image: "/assets/backgrounds/projects/karasuBanner.png",
+            view: "/",
+            concept: "/pageforconcept"
+        },
+        {
+            title: "Project name",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita.",
+            image: "/assets/backgrounds/projects/karasuBanner.png",
+            view: "/",
+            concept: "/pageforconcept"
+        }
+    ];
+
     return (
         <>
-            <section id="projects" className=" relative flex-col z-6 flex -mt-20  w-full items-center justify-center overflow-hidden bg-white p-20 ">      
-                <div id="project-section" className="lg:flex-nowrap flex-wrap md:flex-nowrap flex gap-10 relative mb-10  justify-\ no-select w-full z-10">
-                    <Link href="/" onMouseEnter={showInformation} onMouseLeave={showInformation} className="bg-white border-1 border-black active:scale-95 p-2 hover:scale-105 duration-200 w-150 h-100 flex items-center justify-center">
-                        <Image alt="Project image" src="/assets/backgrounds/projects/karasuBanner.png" width={1000} height={100} className="w-full border-black border-1 relative z-10 itens-center justify-center h-full"></Image>
-                        <div className="information backdrop-blur-sm p-5 flex  lg:text-left justify-center flex-col w-140 h-90 absolute z-40 hidden text-white">
-                            <h2 className="text-3xl font-black">Project name</h2>
-                            <article>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, .
-                                </p>
-                                <p><strong>Click to See more</strong></p>
-                            </article>
-                        </div>
-                    </Link>
-                    <Link href="/" onMouseEnter={showInformation} onMouseLeave={showInformation} className="bg-white border-1 border-black active:scale-95 p-2 hover:scale-105 duration-200 w-150 h-100 flex items-center justify-center">
-                        <Image alt="Project image" src="/assets/backgrounds/projects/karasuBanner.png" width={1000} height={100} className="w-full border-black border-1 relative z-10 itens-center justify-center h-full"></Image>
-                        <div className="information backdrop-blur-sm p-5 flex  lg:text-left justify-center flex-col w-140 h-90 absolute z-40 hidden text-white">
-                            <h2 className="text-3xl font-black">Project name</h2>
-                            <article>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, .
-                                </p>
-                                <p><strong>Click to See more</strong></p>
-                            </article>
-                        </div>
-                    </Link>
-                    <Link href="/" onMouseEnter={showInformation} onMouseLeave={showInformation} className="bg-white border-1 border-black active:scale-95 p-2 hover:scale-105 duration-200 w-150 h-100 flex items-center justify-center">
-                        <Image alt="Project image" src="/assets/backgrounds/projects/karasuBanner.png" width={1000} height={100} className="w-full border-black border-1 relative z-10 itens-center justify-center h-full"></Image>
-                        <div className="information backdrop-blur-sm p-5 flex  lg:text-left justify-center flex-col w-140 h-90 absolute z-40 hidden text-white">
-                            <h2 className="text-3xl font-black">Project name</h2>
-                            <article>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, .
-                                </p>
-                                <p><strong>Click to See more</strong></p>
-                            </article>
-                        </div>
-                    </Link>
+            <section id="projects" className="relative z-6 -mt-20 flex w-full flex-col items-center justify-center overflow-hidden bg-white lg:p-20">
+                <div id="project-section" className="relative z-10 mb-10 flex w-full flex-wrap items-center justify-center gap-10 no-select">
+                    {projects.map((project, index) => (
+                        <Link  key={index}  href={project.view}   onMouseEnter={showInformation}  onMouseLeave={showInformation}     className="flex min-h-80 max-h-80 min-w-150 max-w-150 items-center justify-center border-1 border-black bg-white p-2 duration-200 active:scale-95 lg:hover:scale-105" >
+                            <Image alt={`${project.title} project image`} src={project.image}  width={1000} height={100} className="relative z-10 h-full w-full items-center justify-center border-1 border-black object-cover" />
+
+                            <div className="information absolute z-40 hidden h-90 w-140 flex-col flex-wrap justify-center p-5 text-center text-white backdrop-blur-sm lg:text-left">
+                                <h2 className="text-3xl font-black">
+                                    {project.title}
+                                </h2>
+
+                                <article>
+                                    <p>{project.description}</p>
+
+                                    <Link href={project.concept}>
+                                        <strong>Concept</strong>
+                                    </Link>
+                                </article>
+                            </div>
+                        </Link>
+                    ))}
                 </div>
-                <h2 className="text-black z-2 relative font-black w-full text-left items-center justify-center mb-50 relative bottom-0 text-9xl">DIVE IN <br />AN OCEAN OF PERSPECTIVES</h2>
+
+                <h2 className="relative bottom-0 z-2 mb-50 flex w-full items-center justify-center text-left text-6xl font-black text-black lg:text-8xl">
+                    DIVE IN <br />
+                    AN OCEAN OF PERSPECTIVES
+                </h2>
             </section>
+
             <div className="flex w-full items-center justify-center overflow-hidden">
-                <Stripe/>
+                <Stripe />
             </div>
         </>
-    )
+    );
 }
