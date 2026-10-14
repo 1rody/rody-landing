@@ -11,6 +11,17 @@ import toggleMenu from "@/src/utils/ToggleMenu";
 import hideMenu from "@/src/utils/hideMenu";
 import { Menu } from "lucide-react";
 
+const playHover = () => {
+    const audio = new Audio("/assets/sounds/hover.mp3"); 
+    audio.volume = 0.2;
+    audio.play().catch(() => {});
+};
+const playSwoosh = () => {
+    const audio = new Audio("/assets/sounds/swoosh.mp3"); 
+    audio.volume = 0.1;
+    audio.play().catch(() => {});
+};
+
 export default function Topbar() {
     const [localTime, setLocalTime] = useState<Date | null>(null)
 
@@ -42,13 +53,13 @@ export default function Topbar() {
                         <button id="menubutton" onMouseEnter={toggleMenu} className="text-white hidden lg:flex font-bold py-2 px-4 active:scale-95 duration-200 hover:bg-white hover:text-black transition-colors duration-300">
                             <Menu />
                         </button>
-                        <button id="menubutton" onClick={toggleMenu} className="text-white lg:hidden md:hidden sm:hidden block font-bold py-2 px-4 active:scale-95 duration-200 hover:bg-white hover:text-black transition-colors duration-300">
+                        <button id="menubutton" onClick={toggleMenu}  className="text-white lg:hidden md:hidden sm:hidden block font-bold py-2 px-4 active:scale-95 duration-200 hover:bg-white hover:text-black transition-colors duration-300">
                             <Menu />
                         </button>
                     </div> 
                 </nav>
             </header>
-            <section id="menu" onMouseLeave={hideMenu} className="hidden overflow-hidden md:w-2/4 w-full  border-l-1 border-black p-6 text-black z-50 md:z-39 lg:z-39 sideswap fixed right-0 top-0  lg:w-1/6 h-full bg-white bg-opacity-90 ">
+            <section id="menu"  onMouseLeave={hideMenu} className="hidden overflow-hidden md:w-2/4 w-full  border-l-1 border-black p-6 text-black z-50 md:z-39 lg:z-39 sideswap fixed right-0 top-0  lg:w-1/6 h-full bg-white bg-opacity-90 ">
                 <div className="flex items-center gap-3 w-full justify-center ">
                     <p className="text-3xl font-black">
                         NAVIGATION
@@ -60,45 +71,40 @@ export default function Topbar() {
                 </div>
                 <ol className="flex flex-col gap-4 p-10 text-2xl">
                     <li className="hover:bg-gray-200 active:scale-95 w-fit flex duration-200">
-                        <Link href="#about" onClick={hideMenu}>
+                        <Link href="#about" onMouseEnter={playHover} onClick={hideMenu}>
                             ABOUT
                         </Link>
                     </li>
                     <li className="hover:bg-gray-200 active:scale-95 w-fit flex duration-200">
-                        <Link href="#projects" onClick={hideMenu}>
+                        <Link href="#projects" onMouseEnter={playHover} onClick={hideMenu}>
                             PROJECTS
                         </Link>
                     </li>
                     <li className="hover:bg-gray-200 active:scale-95 w-fit flex duration-200">
-                        <Link href="/socials" >
+                        <Link href="/socials" onMouseEnter={playHover} onClick={playSwoosh}>
                             SOCIALS
                         </Link>
                     </li>
                     <li className="hover:bg-gray-200 active:scale-95 w-fit flex duration-200">
-                        <Link href="/papers">
+                        <Link href="/papers" onMouseEnter={playHover} onClick={playSwoosh}>
                             PAPERS
                         </Link>
                     </li>
                 </ol>
                 <div className="flex items-center gap-3 w-full justify-center ">
-                    <p className="text-3xl font-black">
+                    <p className="text-3xl font-black" onMouseEnter={playHover} onClick={playSwoosh}>
                         GET IN CONTACT
                     </p>
                     <div className="w-full items-center justify-center border-1 border-black border-dashed"></div>
                 </div>
                 <ol  className="flex flex-col gap-4 p-10 text-2xl">
                     <li className="hover:bg-gray-200 active:scale-95 w-fit flex duration-200">
-                        <Link href="#contact" onClick={hideMenu}>
-                            Send a message
-                        </Link>
-                    </li>
-                    <li className="hover:bg-gray-200 active:scale-95 w-fit flex duration-200">
-                        <Link href="/socials">
+                        <Link href="/socials" onMouseEnter={playHover} onClick={playSwoosh}>
                             Discord
                         </Link>
                     </li>
                     <li className="hover:bg-gray-200 active:scale-95 w-fit flex duration-200">
-                        <Link href="/socials">
+                        <Link href="/socials" onMouseEnter={playHover} onClick={playSwoosh}>
                             Linkedin
                         </Link>
                     </li>

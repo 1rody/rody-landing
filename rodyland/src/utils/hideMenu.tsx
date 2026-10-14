@@ -1,10 +1,10 @@
 function hideMenu() {
     const menu = document.getElementById("menu");
 
+    //sound effect
     if (!menu || menu.classList.contains("hidden")) return;
 
     menu.classList.add("menu-hidding");
-
     menu.addEventListener(
         "animationend",
         () => {
