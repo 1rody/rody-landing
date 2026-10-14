@@ -4,7 +4,7 @@ let isOpen = 0;
 function toggleMenu() {
     const menu = document.getElementById("menu");
     const menuButton = document.getElementById("menubutton");
-
+    
     menu?.classList.toggle("hidden");
     isOpen = 1;
 

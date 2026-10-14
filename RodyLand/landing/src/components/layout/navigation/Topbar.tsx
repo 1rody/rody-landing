@@ -39,7 +39,10 @@ export default function Topbar() {
                         </ol>
                     </div>
                     <div className="border-l border-white/14 p-3">
-                        <button id="menubutton" onMouseEnter={toggleMenu} className="text-white  font-bold py-2 px-4 active:scale-95 duration-200 hover:bg-white hover:text-black transition-colors duration-300">
+                        <button id="menubutton" onMouseEnter={toggleMenu} className="text-white hidden lg:flex font-bold py-2 px-4 active:scale-95 duration-200 hover:bg-white hover:text-black transition-colors duration-300">
+                            <Menu />
+                        </button>
+                        <button id="menubutton" onClick={toggleMenu} className="text-white lg:hidden md:hidden sm:hidden block font-bold py-2 px-4 active:scale-95 duration-200 hover:bg-white hover:text-black transition-colors duration-300">
                             <Menu />
                         </button>
                     </div> 
@@ -51,6 +54,9 @@ export default function Topbar() {
                         NAVIGATION
                     </p>
                     <div className="w-full items-center justify-center border-1 border-black border-dashed"></div>
+                        <button id="menubutton" onClick={toggleMenu} className="text-black lg:hidden md:hidden sm:hidden block font-bold py-2 px-4 active:scale-95 duration-200 hover:bg-black hover:text-white transition-colors duration-300">
+                            <Menu />
+                        </button>
                 </div>
                 <ol className="flex flex-col gap-4 p-10 text-2xl">
                     <li className="hover:bg-gray-200 active:scale-95 w-fit flex duration-200">
