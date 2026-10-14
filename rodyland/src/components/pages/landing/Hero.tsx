@@ -15,7 +15,7 @@ export default function Hero() {
 
     //scroll animation
     const { scrollYProgress } = useScroll();
-    const y = useTransform(scrollYProgress, [0, 1], ["0", "60%"]);
+    const y = useTransform(scrollYProgress, [0, 1], ["2%", "60%"]);
 
 
     return (

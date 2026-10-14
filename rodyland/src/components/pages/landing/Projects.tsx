@@ -44,16 +44,11 @@ export default function Projects() {
 
                                 <article className="flex flex-col gap-3">
                                     <p>{project.description}</p>
-
-                                    <Link className="bg-white mt-5 w-fit flex duration-200 active:scale-95 hover:scale-95 text-black  px-2 py-1 text-2xl" href={project.concept}>
-                                        <strong>Concept</strong>
-                                    </Link>
                                 </article>
                             </div>
                         </Link>
                     ))}
                 </div>
-
             </section>
         </>
     );
