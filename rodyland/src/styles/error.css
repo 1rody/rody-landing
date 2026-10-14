@@ -1,6 +1,4 @@
     .error-404 {
-        font-size: var(--footer-large-text);
         font-family: var(--font-Chakra);
-        line-height: 1.2;
-        margin-bottom: -2rem;
+
     }
