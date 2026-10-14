@@ -13,7 +13,7 @@ export default async function PaperPage({
     params: Promise<{ slug: string }>;
 }) {
     const { slug } = await params;
-    const filePath = path.join(process.cwd(), 'src/content/paper', `${slug}.md`);
+    const filePath = path.join(process.cwd(), 'src/content/papers', `${slug}.md`);
 
     if (!fs.existsSync(filePath)) notFound();
 

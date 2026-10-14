@@ -44,7 +44,7 @@ export default function PaperSection() {
                             {papers.map((paper) => (
                                 <li key={paper.id}>
                                     <Link onClick={playSwoosh} onMouseEnter={playHover}
-                                        href={`/paper/${paper.slug}`}   
+                                        href={`/paper/${paper.slug}`}
                                         className="flex flex-col w-fit hover:gap-5 text-gray-800 text-left transition-all duration-200">
                                         <span className="font-medium"> {paper.post_date} | <span className='hover:bg-gray-100 hover:text-black text-gray-100'> [{paper.name}]</span></span>
                                     </Link>
