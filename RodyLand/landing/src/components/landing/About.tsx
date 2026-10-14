@@ -8,8 +8,8 @@ export default function About() {
         <>
         <Image className=" z-6 -mb-1 relative" width={3000} height={100} alt="Transition image" src="/assets/backgrounds/TransitionStroke.svg" />
         <section id="about" className="bg-white z-6 relative flex-col  w-full flex items-center justify-center">
-            <div className="w-full lg:flex-nowrap flex-wrap flex items-center justify-center">
-                <div className="lg:w-1/4 md:w-1/4 w-full  border-l-1 h-screen p-5 flex flex-col items-center justify-center border-black">
+            <div className="w-full lg:flex-nowrap flex-wrap  flex items-center justify-center">
+                <div className="lg:w-1/4 md:w-1/4 w-full  border-l-1 p-5 flex flex-col items-center justify-center border-black">
                     <section
                         id="bento-box"
                         className="flex flex-wrap items-start gap-2 "
@@ -51,11 +51,11 @@ export default function About() {
                     </article>
                 </section>
             </div>
-            <div className="w-full  justify-center -mt-30 flex">
-                <section id="questions" className="border-l-1 text-black h-100 justify-end text-end border-r-1 w-3/4 border-black">
+            <div className="w-full pb-20  justify-center -mt-30 flex">
+                <section id="questions" className="border-l-1 text-black  justify-end text-end border-r-1 w-3/4 border-black">
                     <details className="border-b-1 border-t-1 border-black">
                         <summary className="text-2xl p-4 font-black">WHAT IS UI AND UX</summary>
-                        <p className="p-4 text-xl">
+                        <p className="p-4 text-lg">
                             UI (user interface) is what the user sees: the layout, the visual design, the components they interact with. It s driven by design.
                             UX (user experience) is how the interface feels to use: the navigation, the accessibility, how easily someone can accomplish what they came to do.
                             The two are related but not the same — a site can look good and still be frustrating to use. Good UX is also judged against intent: an interface built for a specialist audience has different goals than one meant for everyone. More in my paper.
@@ -63,7 +63,7 @@ export default function About() {
                     </details>
                     <details className="border-b-1  border-black">
                         <summary className="text-2xl p-4 font-black">SCOPE & DEVELOPER METHOD</summary>
-                        <p className="p-4 text-xl">
+                        <p className="p-4 text-lg">
                             UI (user interface) is what the user sees: the layout, the visual design, the components they interact with. It s driven by design.
                             UX (user experience) is how the interface feels to use: the navigation, the accessibility, how easily someone can accomplish what they came to do.
                             The two are related but not the same — a site can look good and still be frustrating to use. Good UX is also judged against intent: an interface built for a specialist audience has different goals than one meant for everyone. More in my paper.
@@ -71,7 +71,7 @@ export default function About() {
                     </details>
                     <details className="border-b-1  border-black">
                         <summary className="text-2xl p-4 font-black">PRICING TABLE</summary>
-                        <p className="p-4 text-xl">
+                        <p className="p-4 text-lg">
                             UI (user interface) is what the user sees: the layout, the visual design, the components they interact with. It s driven by design.
                             UX (user experience) is how the interface feels to use: the navigation, the accessibility, how easily someone can accomplish what they came to do.
                             The two are related but not the same — a site can look good and still be frustrating to use. Good UX is also judged against intent: an interface built for a specialist audience has different goals than one meant for everyone. More in my paper.

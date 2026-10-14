@@ -17,7 +17,7 @@ export default function Footer() {
     return (
         <>
 
-            <footer className="flex flex-col overflow-hidden relative z-20 h-fit items-center justify-center w-full">
+            <footer id="footer" className="flex flex-col overflow-hidden h-fit items-center justify-center w-full">
                         <Image  alt="RodyLanding Title image background" width={1920} height={1080} src="/assets/backgrounds/rody.svg" />
 
                     <div className='link-section p-10 max-w-2/3 font-black text-center text-(--textblack) items-center gap-10 flex-wrap justify-between  flex w-full mt-10'>

@@ -1,27 +1,31 @@
 'use client'
 
-//imports base
-import { ReactNode } from "react";
-import { useEffect } from "react";
+import { ReactNode, useEffect } from "react";
 import Lenis from "lenis";
 
-export let lenis: Lenis;
-
-//function
+export let lenis: Lenis | null = null;
 
 export default function SmoothScroll({ children }: { children: ReactNode }) {
-useEffect(() => {
+  useEffect(() => {
+    const isMobile = window.matchMedia("(max-width: 768px)").matches || 
+                     "ontouchstart" in window ||
+                     navigator.maxTouchPoints > 0;
+
+    if (isMobile) return;
+
     lenis = new Lenis({
       autoRaf: true,
       smoothWheel: true,
       lerp: 0.1,
-    })
+
+      syncTouch: false,
+    });
 
     return () => {
-      lenis.destroy()
-    }
-  }, [])
+      lenis?.destroy();
+      lenis = null;
+    };
+  }, []);
 
-  return children
+  return children;
 }
-
