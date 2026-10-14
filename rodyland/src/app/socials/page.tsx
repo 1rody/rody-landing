@@ -38,7 +38,7 @@ export default function Socials() {
                     </article>
             </section>
                 < footer className='absolute bottom-10 text-center text-white'>
-                    <p className='text-sm'>© {new Date().getFullYear()} {name}. Made using RECLIPTREE — <Link className='text-blue-500' href='/linktreeCreation' target='_blank' rel='noopener noreferrer'>make yours</Link></p>
+                    <p className='text-sm'>© {new Date().getFullYear()} {name}. Made using Lynko — <Link className='text-blue-500' href='/linktreeCreation' target='_blank' rel='noopener noreferrer'>make yours</Link></p>
                 </footer>
         </section>
     </main>
