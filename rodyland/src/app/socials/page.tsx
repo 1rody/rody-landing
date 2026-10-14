@@ -1,10 +1,15 @@
-'use client'
+
 //base imports
 import Image from "next/image";
 import Link from "next/link";
 
 //sections
 import SocialsNav from "@/src/components/layout/navigation/SocialBar"
+
+//title
+export const metadata = {
+  title: " SOCIALS",  
+};
 
 export default function Socials() {
 

@@ -45,7 +45,10 @@ const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: "RODY.LAND | Creating an new perspective of future.",
+title: {
+    default: "RODY.LAND",
+    template: "RODY.LAND | %s",  
+  },
   description: "landing on a ocean of ideas.....",
 };
 

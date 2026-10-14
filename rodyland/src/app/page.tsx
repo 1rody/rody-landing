@@ -1,4 +1,4 @@
-'use client'
+
 //sections of landing
 import Hero from "@/src/components/pages/landing/Hero";
 import Topbar from "@/src/components/layout/navigation/Topbar";
@@ -7,6 +7,9 @@ import About from "@/src/components/pages/landing/About";
 import Projects from "@/src/components/pages/landing/Projects";
 import Footer from "@/src/components/layout/navigation/footer";
 
+export const metadata = {
+  title: "Landing",  
+};
 
 export default function Home() {
   return (
