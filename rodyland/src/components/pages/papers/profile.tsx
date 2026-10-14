@@ -18,18 +18,18 @@ export default function Profile() {
         <>
             <main className='flex items-center flex-col font-departure font-bold '>
                     <section id='profile-header' className='flex   lg:w-1/3 w-full  text-5xl items-center justify-center'>
-                        <div className='border-b-1 w-2/4 border-b-gray-200/30 p-1'>
+                        <div className='border-b-1 w-2/4 dark:border-gray-200/10 border-b-gray-300/50 p-1'>
 
                         </div >
                         <p>RO_DY</p>
-                        <div className='border-b-1 w-2/4 border-b-gray-200/30 p-1'>
+                        <div className='border-b-1 w-2/4 dark:border-gray-200/10 border-b-gray-300/50 p-1'>
 
                         </div>
                     </section>
                     <section id='profile-content' className='flex mb-10 mt-20 w-full items-center justify-center '>
                         <div className='flex gap-10 flex-col items-center justify-center lg:w-1/3 w-full'>
-                            <article className='border-1 w-full border-gray-200/10 flex flex-col '>
-                                <div className='flex  border-b-1 border-b-gray-200/10 p-3 mb-5 justify-between w-full'>
+                            <article className='border-1 w-full dark:border-gray-200/10 border-gray-300/50 flex flex-col '>
+                                <div className='flex  border-b-1 dark:border-gray-200/10 border-b-gray-300/50 p-3 mb-5 justify-between w-full'>
                                     <h2>[0x00]</h2>
                                     <p>RODY</p>
                                 </div>
@@ -42,8 +42,8 @@ export default function Profile() {
                                     </p>
                                 </div>
                             </article>
-                            <article className='border-1 w-full border-gray-200/10 flex flex-col '>
-                                <div className='flex  border-b-1 border-b-gray-200/10 p-3 mb-5 justify-between w-full'>
+                            <article className='border-1 w-full dark:border-gray-200/10 border-gray-300/50 flex flex-col '>
+                                <div className='flex  border-b-1 dark:border-gray-200/10 border-b-gray-200/30 p-3 mb-5 justify-between w-full'>
                                     <h2>[DC]</h2>
                                     <p>LOWN COMMUNITY</p>
                                 </div>

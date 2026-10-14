@@ -31,13 +31,13 @@ export default function Socials() {
                     <header className='flex flex-col w-full items-center justify-center p-5'>
                         <div className='text-center  gap-2'>
                             <Image width={430} height={10} src={bannerImage} className='relative -mb-22 h-28 z-10 rounded-2xl' alt="Banner image" />
-                            <Link href="/" className='font-bold text-5xl z-15 font-(family-name:--font-geist) relative'>{name}</Link>
+                            <Link href="/" className='font-bold text-5xl z-15 font-(family-name:--font-geist) text-white dark:text-white relative'>{name}</Link>
                             <p className=' z-15 font-(family-name:--font-jetbrains-mono) relative'><span>{introductionPhrase}</span></p>
                         </div>
                     </header>
                     <SocialsNav/>
                     <article className=' items-center justify-center w-full flex flex-col pb-10 gap-5'>
-                        <p className='mt-4 text-sm p-3 max-w-4/5 font-(family-name:--font-jetbrains-mono) rounded-2xl '>
+                        <p className='mt-4 text-white dark:text-white text-sm p-3 max-w-4/5 font-(family-name:--font-jetbrains-mono) rounded-2xl '>
                             {starterPhrase} <strong>{name}</strong> <br /><br /> {description}
                         </p>
                     </article>
