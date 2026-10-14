@@ -13,7 +13,7 @@ export default async function PaperPage({
     params: Promise<{ slug: string }>;
 }) {
     const { slug } = await params;
-    const filePath = path.join(process.cwd(), 'src/content/papers', `${slug}.md`);
+    const filePath = path.join(process.cwd(), 'src/content/paper', `${slug}.md`);
 
     if (!fs.existsSync(filePath)) notFound();
 
@@ -21,7 +21,7 @@ export default async function PaperPage({
 
     return (
         <article className="prose mx-auto p-8">
-            <Link href="/homebrew">Back</Link>
+            <Link href="/papers">Back</Link>
             <h1>{data.title}</h1>
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
         </article>
