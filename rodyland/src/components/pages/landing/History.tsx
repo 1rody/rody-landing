@@ -24,28 +24,24 @@ export default function History() {
                 <div className="h-3 w-3  bg-white"></div>
                 <div className="h-full ml-1 w-full p-3 border-l-1 lg:max-w-2/4 border-gray-300">
                     <p>
-                            <span className="font-bold">2026 — NOW</span> <br />
-                            Working on Jurasolvo, staff member at NEXTFUR (commissions open), and studying at UCSAL
-                            Currently studying Software Engineering at UCSAL and working as
-                            an intern with automations and front-end at Jurasolvo.
+                            <span className="font-bold">2025 — 2026</span> <br />
+                            Became member of NEXTFUR nextfur.net, started to study nextjs & svelte
+                            Making Arkhan landingpage.
                     </p>
                 </div>
                 <div className="h-3 w-3  bg-white"></div>
                 <div className="h-full ml-1 w-full p-3 border-l-1 lg:max-w-2/4 border-gray-300">
                     <p>
-                            <span className="font-bold">2026 — NOW</span> <br />
-                            Working on Jurasolvo, staff member at NEXTFUR (commissions open), and studying at UCSAL
-                            Currently studying Software Engineering at UCSAL and working as
-                            an intern with automations and front-end at Jurasolvo.
+                            <span className="font-bold">2022 — 2025</span> <br />
+                            My frist commission as front-end developer & studing html, css, javascript.
+                            Onwner of a small Minecraft server network.
                     </p>
                 </div>
                 <div className="h-3 w-3  bg-white"></div>
                 <div className="h-full ml-1 w-full p-3 border-l-1 lg:max-w-2/4 border-gray-300">
                     <p>
-                            <span className="font-bold">2026 — NOW</span> <br />
-                            Working on Jurasolvo, staff member at NEXTFUR (commissions open), and studying at UCSAL
-                            Currently studying Software Engineering at UCSAL and working as
-                            an intern with automations and front-end at Jurasolvo.
+                            <span className="font-bold">2020 — 2022</span> <br />
+                            My frist contact with development...
                     </p>
                 </div>
             </div>

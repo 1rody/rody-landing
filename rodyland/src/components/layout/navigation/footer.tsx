@@ -18,7 +18,11 @@ export default function Footer() {
         <>
 
             <footer id="footer" className="flex flex-col overflow-hidden h-fit items-center justify-center w-full">
-                        <Image  className='dark:invert-0 invert-100 w-fit' alt="RodyLanding Title image background" width={1920} height={1080} src="/assets/backgrounds/rody.svg" />
+                    <h2 className="relative bottom-0 z-2 mb-50 flex w-full items-center justify-center text-left lg:text-7xl md:text-6xl text-5xl p-5 font-black bg-white text-black lg:text-8xl">
+                        DIVE IN <br />
+                        AN OCEAN OF PERSPECTIVES
+                    </h2>
+                    <Image  className='dark:invert-0 invert-100 w-fit' alt="RodyLanding Title image background" width={1920} height={1080} src="/assets/backgrounds/rody.svg" />
 
                     <div className='link-section p-10 max-w-2/3 font-black text-center text-(--textblack) items-center gap-10 flex-wrap justify-between  flex w-full mt-10'>
                         <p>&copy; {new Date().getFullYear()} RODY.CITY All rights reserved.</p>
