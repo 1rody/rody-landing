@@ -18,7 +18,7 @@ export default function Footer() {
         <>
 
             <footer id="footer" className="flex flex-col overflow-hidden h-fit items-center justify-center w-full">
-                    <h2 className="relative bottom-0 z-2 mb-50 flex w-full items-center justify-center text-left lg:text-7xl md:text-6xl text-5xl p-5 font-black bg-white text-black lg:text-8xl">
+                    <h2 className="relative bottom-0 z-2  flex w-full items-center justify-center text-left lg:text-7xl md:text-6xl text-5xl p-5 font-black bg-white text-black lg:text-8xl">
                         DIVE IN <br />
                         AN OCEAN OF PERSPECTIVES
                     </h2>
