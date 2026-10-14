@@ -17,33 +17,6 @@ export default function Socials() {
     const description = "I build websites and interfaces. Currently studying Software Engineering and working with front-end and automations.";
     const starterPhrase = "Hey, I'm";
 
-    const socials = [
-            {
-                name: "Instagram",
-                url: "https://www.instagram.com/1r0dy_?igsh=MXV1aTZzdHRuemwxZQ%3D%3D&igsi=MXV1aTZzdHRuemwxZQ%3D%3D&utm_source=qr",
-                icon: "/assets/icons/icons8-instagram.svg"
-            },
-            {
-                name: "X/twitter",
-                url: "https://x.com/1R0_DY",
-                icon: "/assets/icons/icons8-x.svg"
-            },
-            {
-                name: "Github",
-                url: "https://github.com/1R0-DY",
-                icon: "/assets/icons/icons8-github.svg"
-            },
-            {
-                name: "Linkedin",
-                url: "https://www.linkedin.com/in/rody-1r0-dy/",
-                icon: "/assets/icons/icons8-linkedin.svg"
-            },
-            {
-                name: "Pinterest",
-                url: "https://www.pinterest.com/1r0dy_/",
-                icon: "/assets/icons/icons8-pinterest.svg"
-            } 
-        ];
 
   return (
     <main className="flex h-screen w-full items-center justify-center flex-col">
@@ -65,7 +38,7 @@ export default function Socials() {
                     </article>
             </section>
                 < footer className='absolute bottom-10 text-center text-white'>
-                    <p className='text-sm'>© {new Date().getFullYear()} {name}. Made with the unseen linktree builder — <Link className='text-blue-500' href='/linktreeCreation' target='_blank' rel='noopener noreferrer'>make yours</Link></p>
+                    <p className='text-sm'>© {new Date().getFullYear()} {name}. Made using RECLIPTREE — <Link className='text-blue-500' href='/linktreeCreation' target='_blank' rel='noopener noreferrer'>make yours</Link></p>
                 </footer>
         </section>
     </main>
