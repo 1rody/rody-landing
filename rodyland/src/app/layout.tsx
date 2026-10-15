@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "@/src/styles/globals.css";
 
 //lenis scroll & transitions
-import SmoothScroll from "../utils/SmoothScroll";
+import SmoothScroll from "@/src/utils/SmoothScroll";
 import { ViewTransition } from "react";
 
 //import fonts
