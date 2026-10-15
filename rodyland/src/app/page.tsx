@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Topbar/>
-      <main className="flex h-fit overflow-x-hidden flex-col">
+      <main className="flex  flex-col">
         <Hero />
         <History/>
         <About/>
