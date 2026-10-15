@@ -1,12 +1,10 @@
 'use client'
 
 //basic imports
-import Link from "next/link";
 import Image from "next/image";
 
 //other imports
-
-import { motion, useScroll, useTransform } from "framer-motion"
+import { motion} from "framer-motion"
 import StarsBG from "@/src/components/misc/Stars";
 
 
