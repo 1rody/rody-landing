@@ -10,9 +10,6 @@ import StarsBG from "@/src/components/misc/Stars";
 
 //component
 export default function Hero() {
-
-
-
     return (
         <motion.section initial={{ opacity: 0, scale: 0.8 }}  animate={{ opacity: 1, scale: 1 }} id="hero" className="no-select flex h-screen w-full items-center flex-col overflow-hidden justify-center gap-4 text-center">
             <StarsBG/>

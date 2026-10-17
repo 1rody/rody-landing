@@ -1,0 +1,6 @@
+:root {
+    --background: #0e0e0f;
+}
+@theme {
+    --color-background: var(--background);
+}

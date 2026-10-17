@@ -1,0 +1,8 @@
+@import url(./themes.css);
+@import url(./animations.css);
+
+@import "tailwindcss";
+
+body {
+    background-color: var(--background);
+}
