@@ -19,7 +19,7 @@
       smoothWheel: true,
     });
 
-    // retornar a função de limpeza
+    // retornar a função de limpezaa
     return () => {
       lenis?.destroy();
       lenis = null;
