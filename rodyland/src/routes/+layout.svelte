@@ -1,14 +1,44 @@
 <script lang="ts">
-	import "#lib/styles/globals.css"
+  import '#lib/styles/globals.css';
+  import favicon from '#lib/assets/favicon.svg';
+  import type { LayoutProps } from './$types';
 
-	import favicon from '#lib/assets/favicon.svg';
-	import type { LayoutProps } from './$types';
+  import { onMount } from 'svelte';
+  import { page } from '$app/state'; 
+  import Lenis from 'lenis';
+  import 'lenis/dist/lenis.css';
 
-	let { children }: LayoutProps = $props();
+  let { children }: LayoutProps = $props();
+
+  let lenis: Lenis | null = null;
+
+  onMount(() => {
+    lenis = new Lenis({
+      autoRaf: true,
+      duration: 1.2,
+      smoothWheel: true,
+    });
+
+    // retornar a função de limpeza
+    return () => {
+      lenis?.destroy();
+      lenis = null;
+    };
+  });
+
+  // sobe quando muda rota
+  $effect(() => {
+    //reagir a mudança de pagina
+    page.url.pathname;
+
+    if (lenis) {
+      lenis.scrollTo(0, { immediate: true });
+    }
+  });
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+  <link rel="icon" href={favicon} />
 </svelte:head>
 
 {@render children()}
