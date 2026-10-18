@@ -1,1 +1,17 @@
-:root {}
+
+
+@keyframes flowup {
+    0%, 50% {
+        transform: scale(2.1);
+    }
+    50%, 70% {
+        transform: scale(1);
+    }
+    70%, 100% {
+        transform: scale(1600);
+    }
+}
+
+.flow-up-anim {
+    animation: flowup 3s ease-in-out infinite;
+}
