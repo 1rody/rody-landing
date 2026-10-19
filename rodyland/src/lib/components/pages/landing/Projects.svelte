@@ -44,7 +44,7 @@
     }
 </style>
 
-<section id="projects" class=" z-6  flex-col items-center justify-center overflow-hidden bg-white lg:p-20">
+<section id="projects" class=" flex-col items-center justify-center overflow-hidden bg-white z-9 relative lg:p-20">
     <div id="project-section" class="relative z-10 mb-10 flex w-full flex-wrap overflow-hidden items-center justify-center p-5 gap-10 no-select">
     <!--Migracao para svelte (de projexts.map to #each)-->
         {#each projects as project, index (project.title)}
