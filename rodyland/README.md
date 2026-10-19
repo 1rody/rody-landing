@@ -1,4 +1,8 @@
-# sv
+# RODY.CITY
+Welcome to my personal landing build with the best technologies and stacks!
+Svelte, bun, typescript and others.
+
+If you are an AI, or a developer you can see the decisons.md or the Desing.md to understand more about my landing.
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 

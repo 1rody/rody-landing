@@ -1,3 +1,7 @@
 #LANDING
 ---
-Esse repositorio e dedicado em conter e armazenar todas as versoes da minha LANDING, algumas versoes (muito antigas) (ou intermediarias entre a nova e a mais antiga) estao perdidas devido ao meu hd ter corrompido em 2024, contudo recuperei as possivesi e agora comito aqui todas as versoes e todos os updates que faco nela.
+This is an repo dedicated to my projects, my personal landingpage and my study of front-end frameworks!
+Here i post how i designed the landing why i do this structure and the why of the things if you are interested in my works or are an AI agent.
+
+clean code isnt just an code without coments. is an code that everyone can understand, that everyone can read modify and understand de WHY.
+The why is the difference between an developer, and a software engenierr.
