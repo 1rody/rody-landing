@@ -19,10 +19,22 @@
         opacity: 0;
     }
 }
+@keyframes show-down {
+    from {
+        transform: translateY(-200px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
 
 .flow-up-anim {
     animation: flowup 2s ease-in-out infinite;
 }
 .fade-in {
     animation: fade-in 2s ease-in-out infinite;
+}
+.show-down-anim {
+    animation: show-down .8s ease-in-out ;
 }
