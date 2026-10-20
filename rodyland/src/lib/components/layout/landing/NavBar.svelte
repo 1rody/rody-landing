@@ -21,8 +21,8 @@
 
 </script>
 
-<header id="topbar"  class="w-full show-down-anim mix-blend-difference fixed p-2 z-30">
-    <nav  class="flex items-center lg:justify-around justify-between font-black w-full border-b-1 p-2">
+<header id="topbar"  class="w-full show-down-anim flex items-center justify-center mix-blend-difference fixed p-2 z-30">
+    <nav  class="flex items-center lg:max-w-2/3 lg:justify-around  text-sm justify-between font-black w-full border-b-1 p-2">
         <div class="border-white/10 border-r-1 lg:hidden flex px-3">
             <a href="/"><img src={favicon} alt="Logo" /></a>
         </div>
