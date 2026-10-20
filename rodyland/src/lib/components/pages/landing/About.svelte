@@ -55,7 +55,7 @@
                     <div class="w-full flex items-center justify-center text-center mt-20 ">
                         <div class="bgwhite border-1 border-black/10 text-3xl w-2/3 p-10 gap-10 flex  items-center justify-center rounded-3xl">
                             <p class=" text-black font-pixel">Let’s bring an extraordinary code or idea to life! </p>
-                            <a class="font-black text-white bg-blue-500 w-fit text-lg rounded-4xl py-2 px-3 hover:px-5 duration-200 " href="">Get in touch</a>
+                            <a class="font-black text-white bg-black w-fit text-lg rounded-4xl py-2 px-3 hover:px-5 duration-200 " href="">Get in touch</a>
                         </div>
                     </div>
         </section>
