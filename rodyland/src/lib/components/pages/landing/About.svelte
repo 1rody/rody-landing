@@ -35,14 +35,14 @@
                     </section>
                 </div>
                 <section id="whoami" class="lg:w-1/2 md:w-1/2 w-full border-r-1 h-screen p-5 flex flex-col items-center justify-center text-right border-black">
-                    <h1 class="lg:text-8xl md:text-6xl text-5xl text-black lg:text-right text-center w-full font-black lg:mr-13">WHOAMI</h1>
-                    <article class="text-black flex flex-col gap-4 lg:text-right text-center font-medium max-w-5xl text-lg mt-5 lg:text-2xl">
+                    <h1 class="lg:text-8xl md:text-6xl text-5xl text-black lg:text-right text-center w-full  font-pixel font-black lg:mr-13">WHO IS RODY?</h1>
+                    <article class="text-black flex flex-col gap-8 lg:text-right text-center font-medium max-w-5xl text-lg mt-5 lg:text-2xl">
                             <p id="introduction">
-                                Im rodolfo, a Software Engineering student at UCSal passionate on front-end development and Ui/UX design.
+                                Im rodolfo AKA as rody/1rody, <br> an Software Engineering student at <a class="border-b-1 hover:bg-black font-black duration-200 hover:text-white" href="https://www.ucsal.br/">UCSal</a> passionate on front-end and Ui/UX design.
                             </p>
                             <p>
-                                Software Engineering student at UCSal, Front-End Developer, and UI/UX Designer. <br />
-                                I study Software Engineering at UCSal and work front-end day to day. I like simple pages that load fast, read well on any screen, and don&apos;t break. My favorite stack is Next.js, but i like Svelte when the project asks for it.
+                                I like to create simple pages that load fast, read well on any screen, showing a message that wont&apos;t break. My favorite stack is Next.js, but i like Svelte when the project asks for it. <a class="border-b-1 hover:bg-black font-black duration-200 hover:text-white" href="#projects">Check my resume</a> <br><br>
+                                Below you can see more informations about me or just <a class="border-b-1 hover:bg-black font-black duration-200 hover:text-white" href="#projects">click here</a> to go directily to the projects section.
                             </p>
                     </article>
                 </section>

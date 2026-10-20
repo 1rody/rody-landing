@@ -6,7 +6,7 @@
 
 <title>RODY LAND | PAPER TOWN</title>
 
-<main class="text-white">
+<main class="text-white font-pixel ">
     <Profile/>
     <Hero/>
     <Papers/>

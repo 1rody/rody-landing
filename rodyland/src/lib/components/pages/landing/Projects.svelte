@@ -45,8 +45,8 @@
 </style>
 
 <section id="projects" class=" flex-col flex h-screen items-center justify-center overflow-hidden bg-white z-9 relative lg:p-20">
-    <h2 class="font-pixel lg:text-9xl">Featued projects</h2>
-    <p>Here some of my best projects, landings or comissions!</p>
+    <h2 class="font-pixel lg:text-5xl">Why design, code or work with me?</h2>
+    <p>Great design is more than visuals. It’s about creating intuitive, impactful, memorable experiences and show it to the user...</p>
     <div id="project-section" class="relative mt-4 z-10 mb-10 flex w-full flex-wrap overflow-hidden items-center justify-center p-5 gap-10 no-select">
     <!--Migracao para svelte (de projexts.map to #each)-->
         {#each projects as project, index (project.title)}
@@ -63,4 +63,5 @@
                 </a>
         {/each}
     </div>
+    <p>Here some of my best projects!</p>
 </section>

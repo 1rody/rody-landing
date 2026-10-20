@@ -15,10 +15,6 @@
 </script>
 
  <footer id="footer" class="flex flex-col font-geist  overflow-hidden h-fit items-center justify-center w-full">
-        <h2 class="relative bottom-0 z-2  flex w-full items-center justify-center text-left lg:text-7xl md:text-6xl text-5xl p-20 font-black bg-white text-black lg:text-8xl">
-            DIVE IN <br />
-            AN OCEAN OF PERSPECTIVES
-        </h2>
         <img  class='dark:invert-0 invert-100 w-full mt-5' alt="RodyLanding Title image background" src={Rody} />
     <div class='link-section p-2 max-w-2/3 font-black text-white text-center items-center gap-10 flex-wrap justify-between  flex w-full mt-10'>
         <p>&copy; {new Date().getFullYear()} RODY.CITY All rights reserved.</p>
