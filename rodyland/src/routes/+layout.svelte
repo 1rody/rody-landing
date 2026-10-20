@@ -1,6 +1,14 @@
 <script lang="ts">
+  import '@fontsource/pixelify-sans/400.css';
+  import '@fontsource/pixelify-sans/500.css';
+  import '@fontsource/pixelify-sans/600.css';
+  import '@fontsource/pixelify-sans/700.css';
+  
   import '#lib/styles/globals.css';
+
   import favicon from '#lib/assets/favicon.svg';
+
+  
   import type { LayoutProps } from './$types';
 
   import { onMount } from 'svelte';

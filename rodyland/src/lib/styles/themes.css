@@ -1,5 +1,8 @@
 :root {
     --background: #0e0e0f;
+    --foreground: #ededed;
+
+    --font-pixelify: 'Pixelify Sans', sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root {

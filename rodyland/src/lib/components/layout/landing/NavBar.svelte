@@ -22,14 +22,15 @@
 </script>
 
 <header id="topbar"  class="w-full show-down-anim mix-blend-difference fixed p-2 z-30">
-    <nav  class="flex items-center justify-between w-full border-b-1 p-2 border-white/10">
-        <div class="border-white/10 border-r-1 px-3">
-            <a href="#"><img src={favicon} alt="Logo" /></a>
+    <nav  class="flex items-center lg:justify-around justify-between font-black w-full border-b-1 p-2">
+        <div class="border-white/10 border-r-1 lg:hidden flex px-3">
+            <a href="/"><img src={favicon} alt="Logo" /></a>
         </div>
-        <div class="text-white text-xs hidden lg:block font-black border-white/10 border-l-1 border-r-1 px-5">
-            <p>WELCOME TO A CALMER INTERNET....</p>
-        </div>
-        <div class="border-white/10 border-l-1 px-3">
+            <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="#projects">Projects</a>
+            <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="https://www.github.com/1rody/">Github</a>
+            <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="/">Socials</a>
+            <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="/papers">Papers</a>
+        <div class="border-white/10 lg:hidden flex border-l-1 px-3">
             <button  onmouseenter={() => isOpen = true} aria-label="open menu" ><Menu class="text-white duration-200 transform {isOpen ? 'translate-x-0' : 'translate-x-full'} " /></button>
         </div>
     </nav>
@@ -67,7 +68,7 @@
             </li>
         </ol>
         <div class="flex items-center gap-3 w-full justify-center ">
-            <p class="text-3xl font-black" onmouseenter={playHover} onclick={playSwoosh}>
+            <p class="text-3xl font-black" onmouseenter={playHover} >
                 GET IN CONTACT
             </p>
             <div class="w-full items-center justify-center border-1 border-black border-dashed"></div>

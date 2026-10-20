@@ -44,8 +44,10 @@
     }
 </style>
 
-<section id="projects" class=" flex-col items-center justify-center overflow-hidden bg-white z-9 relative lg:p-20">
-    <div id="project-section" class="relative z-10 mb-10 flex w-full flex-wrap overflow-hidden items-center justify-center p-5 gap-10 no-select">
+<section id="projects" class=" flex-col flex h-screen items-center justify-center overflow-hidden bg-white z-9 relative lg:p-20">
+    <h2 class="font-pixel lg:text-9xl">Featued projects</h2>
+    <p>Here some of my best projects, landings or comissions!</p>
+    <div id="project-section" class="relative mt-4 z-10 mb-10 flex w-full flex-wrap overflow-hidden items-center justify-center p-5 gap-10 no-select">
     <!--Migracao para svelte (de projexts.map to #each)-->
         {#each projects as project, index (project.title)}
                 <a  href={project.view}    class="flex project lg:scale-100  scale-60 lg:min-h-80 lg:max-h-80 lg:min-w-120 lg:max-w-150 items-center justify-center border-1 border-black bg-white p-2 duration-200 active:scale-95 lg:hover:scale-105" >

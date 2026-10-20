@@ -6,3 +6,11 @@
 body {
     background-color: var(--background);
 }
+
+@theme {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-pixel: "Pixelify Sans", sans-serif;
+    --font-geist: "Geist sans", sans-serif;
+    --text-20xl: clamp(4.5rem, 17vw + 1rem, 55rem);
+}
