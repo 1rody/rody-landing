@@ -63,5 +63,34 @@
                 </a>
         {/each}
     </div>
-    <p>Here some of my best projects!</p>
+
+    <div class="w-full pb-20  justify-center flex">
+        <section id="questions" class=" text-black  justify-end text-start w-3/4 border-black">
+                    <details class="border-b-1 border-t-1 border-black">
+                        <summary class="text-2xl p-4 font-black">WHAT IS UI AND UX</summary>
+                        <p class="p-4 text-lg">
+                            UI (user interface) is what the user sees: the layout, the visual design, the components they interact with. It s driven by design.
+                            UX (user experience) is how the interface feels to use: the navigation, the accessibility, how easily someone can accomplish what they came to do.
+                            The two are related but not the same — a site can look good and still be frustrating to use. Good UX is also judged against intent: an interface built for a specialist audience has different goals than one meant for everyone. More in my paper.
+                        </p>
+                    </details>
+                    <details class="border-b-1  border-black">
+                        <summary class="text-2xl p-4 font-black">SCOPE & DEVELOPER METHOD</summary>
+                        <p class="p-4 text-lg">
+                            UI (user interface) is what the user sees: the layout, the visual design, the components they interact with. It s driven by design.
+                            UX (user experience) is how the interface feels to use: the navigation, the accessibility, how easily someone can accomplish what they came to do.
+                            The two are related but not the same — a site can look good and still be frustrating to use. Good UX is also judged against intent: an interface built for a specialist audience has different goals than one meant for everyone. More in my paper.
+                        </p>
+                    </details>
+                    <details class="border-b-1  border-black">
+                        <summary class="text-2xl p-4 font-black">PRICING TABLE</summary>
+                        <p class="p-4 text-lg">
+                            UI (user interface) is what the user sees: the layout, the visual design, the components they interact with. It s driven by design.
+                            UX (user experience) is how the interface feels to use: the navigation, the accessibility, how easily someone can accomplish what they came to do.
+                            The two are related but not the same — a site can look good and still be frustrating to use. Good UX is also judged against intent: an interface built for a specialist audience has different goals than one meant for everyone. More in my paper.
+                        </p>
+                    </details>
+
+        </section>
+    </div>
 </section>
