@@ -1,6 +1,6 @@
-<section id="history" class="relative font-geist  dark:text-white text-black lg:flex-nowrap gap-10 flex-wrap z-5 flex  min-h-screen top-[60px] w-full items-center overflow-hidden bg-background p-10 shadow-5xl lg:sticky ">
+<section id="history" class="relative font-geist  dark:text-white text-black lg:flex-nowrap gap-10 flex-wrap z-5 flex  min-h-screen top-[40px] w-full items-center overflow-hidden bg-background p-10 shadow-5xl lg:sticky ">
             <div id="my-perspective-on-web" class="flex flex-col items-center justify-center lg:mt-30 lg:mb-70 gap-4 lg:items-end lg:justify-end lg:w-1/2 w-full">
-                <h2 class="lg:text-9xl lg:mt-0 lg:mb-0 mb-20 md:mb-20 md:text-8xl md:w-full lg:w-fit text-left text-7xl font-black">
+                <h2 class="lg:text-8xl lg:mt-0 lg:mb-0 mb-20 md:mb-20 md:text-8xl md:w-full lg:w-fit text-left text-7xl font-black">
                     Creating <br />
                     systems<br />
                     that<br />
