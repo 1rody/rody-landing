@@ -50,7 +50,7 @@
     <div id="project-section" class="relative h-fit mt-4 z-10 mb-10 flex w-full flex-wrap overflow-hidden items-center justify-center p-5 gap-10 no-select">
     <!--Migracao para svelte (de projexts.map to #each)-->
         {#each projects as project, index (project.title)}
-                <a  href={project.view}    class="flex project lg:scale-100  scale-60 lg:min-h-80 lg:max-h-80 lg:min-w-120 lg:max-w-110 items-center justify-center border-1 border-black bg-white p-2 duration-200 active:scale-95 lg:hover:scale-105" >
+                <a  href={project.view}    class="flex project lg:scale-100 scale-75 lg:min-h-80 lg:max-h-80 lg:min-w-120 lg:max-w-110 items-center justify-center border-1 border-black bg-white p-2 duration-200 lg:active:scale-90 active:scale-70 lg:hover:scale-105 hover:scale-80" >
                     <img alt={`${project.title} project image`} src={project.image}  class=" z-10 w-fit h-fit lg:min-h-80 max-h-80 min-w-120 max-w-120 items-center justify-center border-1 border-black " />
                     <div class="information absolute z-40  w-fit h-fit lg:min-h-80 max-h-80 min-w-110 max-w-110 flex-col flex flex-wrap justify-center p-5 text-center text-white backdrop-blur-sm lg:text-left">
                         <h2 class="text-3xl font-black">

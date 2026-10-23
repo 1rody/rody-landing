@@ -1,5 +1,5 @@
-<section id="history" class="relative font-geist  dark:text-white text-black lg:flex-nowrap gap-10 flex-wrap z-5 flex  min-h-screen top-[40px] w-full items-center overflow-hidden bg-background p-10 shadow-5xl lg:sticky ">
-            <div id="my-perspective-on-web" class="flex flex-col items-center justify-center lg:mt-30 lg:mb-70 gap-4 lg:items-end lg:justify-end lg:w-1/2 w-full">
+<section id="history" class="relative font-geist  dark:text-white text-black lg:flex-nowrap gap-10 flex-wrap z-5 flex  min-h-screen top-[2px] w-full items-center overflow-hidden bg-background p-10 shadow-5xl lg:sticky ">
+            <div id="my-perspective-on-web" class="flex flex-col items-center justify-center lg:mt-14 lg:mb-70 gap-4 lg:items-end lg:justify-end lg:w-1/2 w-full">
                 <h2 class="lg:text-8xl lg:mt-0 lg:mb-0 mb-20 md:mb-20 md:text-8xl md:w-full lg:w-fit text-left text-7xl font-black">
                     Creating <br />
                     systems<br />
@@ -8,7 +8,7 @@
                     for you
                 </h2>
             </div>
-            <div id="history-line" class="flex flex-col mb-20 text-left lg:w-1/2 w-full">
+            <div id="history-line" class="flex lg:-mt-28 flex-col mb-20 text-left lg:w-1/2 w-full">
                 <div class="h-3 w-3  bg-foreground"></div>
                 <div class="h-full ml-1 w-full p-3 border-l-1  lg:max-w-2/4 border-gray-300">
                     <p>

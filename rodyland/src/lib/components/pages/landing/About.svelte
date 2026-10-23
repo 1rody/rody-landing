@@ -6,7 +6,7 @@
 <img src={TransitionImage} class="w-full z-7  font-geist relative" alt="transition">
 <section id="about" class="bg-white z-6 relative flex-col min-h-screen  w-full flex items-center justify-center">
             <div class="w-full lg:flex-nowrap flex-wrap  flex items-center justify-center">
-                <section id="whoami" class=" lg:mt-30 p-5 flex flex-col items-end justify-center ">
+                <section id="whoami" class="mt-30 p-5 flex flex-col items-end justify-center ">
                     <h1 class="lg:text-7xl md:text-6xl text-5xl  lg:text-right text-center font-geist font-black ">WHO IS RODY?</h1>
                     <article class="text-black flex flex-col gap-8 lg:text-right text-center font-medium max-w-2xl text-lg">
                     <p id="introduction">
@@ -30,8 +30,8 @@
                     <img src={Stackbox} class="w-250 mt-50" alt="My tech stacks nextjs javascript typescript java figma">
                 </div>
             </div>
-                    <div class="w-full flex items-center justify-center text-left mt-20 ">
-                        <div class="bgwhite border-1 border-black/10 text-3xl w-2/3 p-10 gap-10 flex  items-center justify-center rounded-3xl">
+                    <div class="w-full flex items-center justify-center text-left mt-20 pb-40 lg:pb-0 ">
+                        <div class="bgwhite border-1 border-black/10 text-3xl w-2/3 lg:p-10 p-4 gap-10 flex  flex-col lg:flex-nowrap items-center justify-center rounded-3xl">
                             <p class=" text-black font-pixel">Let’s bring an extraordinary code or idea to life! </p>
                             <a class="font-black text-white bg-black w-fit text-lg rounded-4xl py-2 px-3 hover:px-5 duration-200 text-center " href="">Get in touch</a>
                         </div>
