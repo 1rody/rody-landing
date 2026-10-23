@@ -11,4 +11,5 @@
             <ChevronDown/>
             <p>Scroll down to see more...</p>
         </div>
+        <img class="absolute -bottom-10 w-full" src={RodyBackground} alt="background">
 </section>
