@@ -8,7 +8,6 @@
     import About from "#lib/components/pages/landing/About.svelte";
     import Projects from "#lib/components/pages/landing/Projects.svelte";
 
-
     import  FakeLoading from "#lib/components/pages/landing/Loading.svelte";
 </script>
 
