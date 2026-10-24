@@ -15,7 +15,7 @@
 </script>
 
  <footer id="footer" class="flex flex-col pt-40 pb-20 font-geist overflow-hidden text-white bg-white dark:text-black  items-center justify-center w-full">
-        <h1 class="text-20xl text-center flex flex-nowrap font-pixel leading-none">Rody land</h1>
+        <h1 class="text-20xl text-center flex flex-nowrap font-pixel leading-none">Rody</h1>
     <div class='link-section p max-w-2/4 font-black text-center items-center lg:gap-3 flex-wrap justify-between  lg:flex-nowrap flex w-full mt-10'>
         <p>&copy; {new Date().getFullYear()} RODY.CITY All rights reserved.</p>
         <div translate="no" class='flex gap-10 flex-wrap  z-40   items-center justify-center'>

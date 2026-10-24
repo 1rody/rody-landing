@@ -22,13 +22,13 @@
 </script>
 
 <header id="topbar"  class="w-full show-down-anim flex items-center justify-center mix-blend-difference fixed p-2 z-30">
-    <nav  class="flex items-center lg:max-w-2/3 lg:justify-around  text-sm justify-between font-black w-full border-b-1 p-2">
+    <nav  class="flex items-center  uppercase text-sm justify-between  lg:px-20 font-black w-full border-b-1 p-2">
         <div class="border-white/10 border-r-1 lg:hidden flex px-3">
             <a href="/"><img src={favicon} alt="Logo" /></a>
         </div>
             <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="#projects">Projects</a>
             <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="https://www.github.com/1rody/">Github</a>
-            <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="/">Socials</a>
+            <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="/">contact</a>
             <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="/papers">Papers</a>
         <div class="border-white/10 lg:hidden flex border-l-1 px-3">
             <button  onmouseenter={() => isOpen = true} aria-label="open menu" ><Menu class="text-white duration-200 transform {isOpen ? 'translate-x-0' : 'translate-x-full'} " /></button>

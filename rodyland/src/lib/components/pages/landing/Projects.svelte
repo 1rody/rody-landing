@@ -45,16 +45,15 @@
     }
 </style>
 
-<img src={TransitionImage} alt="Transition" class="w-full relative z-8 lg:-mb-2">
 <section id="projects" class=" flex-col flex min-h-screen items-center justify-center overflow-hidden bg-white z-9 relative lg:p-20">
-    <h2 class="font-pixel  max-w-3/4 lg:text-5xl text-3xl mt-20 text-center">Why design, code or work with me?</h2>
+    <h2 class="font-pixel  max-w-3/4 lg:text-7xl text-3xl mt-20 text-center">Why design, code or work with me?</h2>
     <p class="text-center mt-5 max-w-3/4">Great design is more than visuals. It’s about creating intuitive, impactful, memorable experiences and show it to the user...</p>
-    <div id="project-section" class="relative h-fit mt-4 z-10 mb-10 flex w-full flex-wrap overflow-hidden items-center justify-center p-5 gap-10 no-select">
+    <div id="project-section" class="relative h-fit mt-4 z-10 mb-10 flex w-full flex-col overflow-hidden items-center justify-center p-5 gap-10 no-select">
     <!--Migracao para svelte (de projexts.map to #each)-->
         {#each projects as project, index (project.title)}
-                <a  href={project.view}    class="flex project lg:scale-100 scale-75 lg:min-h-80 lg:max-h-80 lg:min-w-120 lg:max-w-110 items-center justify-center border-1 border-black bg-white p-2 duration-200 lg:active:scale-90 active:scale-70 lg:hover:scale-105 hover:scale-80" >
-                    <img alt={`${project.title} project image`} src={project.image}  class=" z-10 w-fit h-fit lg:min-h-80 max-h-80 min-w-120 max-w-120 items-center justify-center border-1 border-black " />
-                    <div class="information absolute z-40  w-fit h-fit lg:min-h-80 max-h-80 min-w-110 max-w-110 flex-col flex flex-wrap justify-center p-5 text-center text-white backdrop-blur-sm lg:text-left">
+                <a  href={project.view}    class="" >
+                    <img alt={`${project.title} project image`} src={project.image}  class=" " />
+                    <div class="   text-black w-fit">
                         <h2 class="text-3xl font-black">
                             {project.title}
                         </h2>
