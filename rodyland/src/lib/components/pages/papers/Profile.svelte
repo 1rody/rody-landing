@@ -29,23 +29,22 @@
                                 </div>
                                 <div class='p-3'>
                                     <p>
-                                        This is my corner of the site. <br /><br />
-
+                                        You <span class="text-gray-300">rearched</span> the <span class="text-red-500">farlands</span>... <br /> here the world is under construction, under an OLD and frogotten web, an nostalgic style in a modern way of view.
+                                        <br><br>
                                         <a onclick={playSwoosh} onmouseenter={playHover} class='hover:text-red-500' href='/'>- back to landing</a><br />
-                                        <a onclick={playSwoosh} onmouseenter={playHover} class='hover:text-red-500' href='/homebrew'>- check my papers</a>
                                     </p>
                                 </div>
                             </article>
                             <article class='border-1 w-full dark:border-gray-200/10 border-gray-300/50 flex flex-col '>
                                 <div class='flex  border-b-1 dark:border-gray-200/10 border-b-gray-200/30 p-3 mb-5 justify-between w-full'>
                                     <h2>[DC]</h2>
-                                    <p>LOWN COMMUNITY</p>
+                                    <p>RODY.CITY</p>
                                 </div>
                                 <div class='p-3'>
                                     <p>
-                                        I run a small Discord server. <br /><br />
+                                        Wanna talk with me?, play games or just see how i code? check my discord server! <br /><br />
 
-                                        <a onclick={playSwoosh} onmouseenter={playHover} class='hover:text-red-500' href='/homebrew'>- discord server</a><br />
+                                        <a onclick={playSwoosh} onmouseenter={playHover} class='hover:text-red-500' href='https://discord.gg/aM8Fc86ewR'>- discord server</a><br />
                                     </p>
                                 </div>
                             </article>
