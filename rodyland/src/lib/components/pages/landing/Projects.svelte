@@ -57,9 +57,9 @@
                 <h2 class="lg:text-7xl uppercase text-4xl font-black">
                     {project.title}
                 </h2>
-                <article class="flex flex-col lg:max-w-1/2 lg:text-2xl gap-8 justify-between {index % 2 === 1 ? 'flex-col lg:items-end lg:w-full max-w-full justify-end' : ''}">
+                <article class="flex flex-col w-fit lg:text-2xl gap-8 justify-between {index % 2 === 1 ? 'flex-col lg:items-end lg:w-full max-w-full justify-end' : ''}">
                     <p>{project.description}</p>
-                    <a class="bg-black p-7 text-white font-geist duration-200 active:scale-90 border-1 border-black hover:bg-white hover:text-black" href={project.view}>
+                    <a class="bg-black p-7 text-white w-fit font-geist duration-200 active:scale-90 border-1 border-black hover:bg-white hover:text-black" href={project.view}>
                         See more ->
                     </a>
                 </article>
