@@ -12,7 +12,7 @@
             <p>□</p>
         </div>
                     <div class="w-full lg:flex-nowrap flex-wrap  text-white flex items-center justify-center">
-                        <section id="whoami" class="mt-30 p-5 pb-20 flex flex-col items-start justify-center ">
+                        <section id="whoami" class="mt-20 p-5 pb-20 flex flex-col items-start justify-center ">
                             <p class="text-sm font-black uppercase text-gray-400 lg:text-left text-center lg:mb-0 mb-5">Rodolfo Rocha Falcao - Software engenierr</p>
                             <h1 class="lg:text-7xl md:text-6xl text-4xl  lg:text-left text-center font-geist font-black uppercase">Let’s bring <br> your idea to life<span class="animate-pulse">_</span></h1>
                             <article class=" flex flex-col gap-8 lg:text-left mt-5 text-gray-200 text-center font-medium max-w-2xl text-lg">
