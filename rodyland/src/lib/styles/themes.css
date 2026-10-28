@@ -1,28 +1,43 @@
-:root {
-    --background: #0e0e0f;
-    --foreground: #ededed;
+@import "tailwindcss";
+@import url(./themes.css);
+@import url(./animations.css);
 
-    --font-pixelify: 'Pixelify Sans', sans-serif;
+:root {
+  --background: #0e0e0f;
+  --foreground: #ededed;
+  --text-base: #0a0a0a;
+  --text-base-invert: #ffffff;
+  --font-pixelify: "Pixelify Sans", sans-serif;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --text-base: #ffffff;
+    --text-base-invert: #121212;
   }
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     --background: #ffffff;
     --foreground: #171717;
+    --text-base: #0a0a0a;
+    --text-base-invert: #ffffff;
   }
 }
 
 
+body {
+  background-color: var(--background);
+}
+
 .no-select {
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none;   /* Safari */
-    -khtml-user-select: none;    /* Konqueror HTML */
-    -moz-user-select: none;      /* Old versions of Firefox */
-    -ms-user-select: none;       /* Internet Explorer/Edge */
-    user-select: none;           /* Non-prefixed version, currently */              
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

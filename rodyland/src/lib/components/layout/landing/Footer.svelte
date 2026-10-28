@@ -14,9 +14,9 @@
     ];
 </script>
 
- <footer id="footer" class="flex flex-col pt-40 pb-20 font-geist overflow-hidden text-white bg-white dark:text-black  items-center justify-center w-full">
+ <footer id="footer" class="flex flex-col pt-40 pb-20 font-geist overflow-hidden text-dark bg-white text-base-invert items-center justify-center w-full">
         <h1 class="text-20xl text-center flex flex-nowrap uppercase font-black leading-none">Rody</h1>
-        <section id="questions" class=" text-black lg:px-30 justify-end text-start w-full border-black">
+        <section id="questions" class=" text-dark lg:px-30 justify-end text-start w-full border-black">
                     <details class="border-b-1 border-t-1 border-black">
                         <summary class="text-2xl p-4 font-black">WHAT IS UI AND UX</summary>
                         <p class="p-4 text-lg">
