@@ -12,5 +12,6 @@ body {
     --color-foreground: var(--foreground);
     --font-pixel: "Pixelify Sans", sans-serif;
     --font-geist: "Geist sans", sans-serif;
-    --text-20xl: clamp(4.5rem, 30vw + 1rem, 55rem);
+    --text-20xl: clamp(4.5rem, 10vw + 1rem, 55rem);
+    --text-30xl: clamp(4.5rem, 30vw + 1rem, 55rem);
 }
