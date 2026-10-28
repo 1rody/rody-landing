@@ -60,7 +60,7 @@
                 <article class="flex flex-col w-fit lg:text-2xl gap-8 justify-between {index % 2 === 1 ? 'flex-col lg:items-end lg:w-full max-w-full justify-end' : ''}">
                     <p>{project.description}</p>
                     <a class="bg-black p-7 text-white w-fit font-geist duration-200 active:scale-90 border-1 border-black hover:bg-white hover:text-black" href={project.view}>
-                        See more ->
+                        See more 
                     </a>
                 </article>
             </div>

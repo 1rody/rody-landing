@@ -13,6 +13,4 @@ body {
     --font-pixel: "Pixelify Sans", sans-serif;
     --font-geist: "Geist sans", sans-serif;
     --text-20xl: clamp(4.5rem, 30vw + 1rem, 55rem);
-    --text-base: var(--text-base);
-    --text-base-invert: var(--text-base-invert);
 }
