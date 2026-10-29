@@ -22,16 +22,16 @@
 </script>
 
 <header id="topbar"  class="w-full show-down-anim flex items-center justify-center mix-blend-difference lg:absolute fixed p-2 z-30">
-    <nav  class="flex items-center  uppercase text-sm justify-between  lg:px-20 font-black w-full border-b-1 p-2">
+    <nav  class="flex items-center  uppercase text-sm justify-between  lg:px-8 font-black w-full border-b-1 p-2">
         <div class="border-white/10 border-r-1 lg:hidden flex px-3">
             <a href="/"><img src={favicon} alt="Logo" /></a>
         </div>
-            <div class="flex flex-col lowercase text-2xl mt-5 text-white">
+            <div class=" flex-col hidden lg:flex lowercase text-2xl mt-5 text-white">
                 <p> Minimalism isn't about remove  <br>is about the message.</p>
-                <a onmouseenter={playHover} class=" text-lg font-light w-fit mt-5 bg-white rounded-4xl p-4 text-black hover:bg-black hover:text-white hover:rounded-0 hover:border-white border-1 duration-200 lg:flex hidden" href="#projects">Talk with me -></a>
+                <a onmouseenter={playHover} class=" text-lg font-light w-fit uppercase mt-5 bg-white rounded-4xl p-4 text-black hover:bg-black hover:text-white hover:rounded-0 hover:border-white border-1 duration-200 lg:flex hidden" href="#projects">Talk with me</a>
 
             </div>
-            <div class="flex right-10   gap-5 uppercase text-xl fixed text-white">
+            <div class=" right-10 hidden lg:flex   gap-5 uppercase text-xl fixed text-white">
                 <a onmouseenter={playHover} class=" text-lg font-geist w-fit text-white hover:bg-white hover:text-black hover:rounded-0 duration-200 lg:flex hidden" href="#projects">Github</a>
 
                 <p>/</p>

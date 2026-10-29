@@ -16,7 +16,7 @@
 
  <footer id="footer" class="flex flex-col pt-40 pb-20 font-geist overflow-hidden text-dark bg-white text-base-invert items-center justify-center w-full">
         <h1 class="text-30xl text-center flex font-climate flex-nowrap uppercase font-black leading-none">Rody</h1>
-        <section id="questions" class=" text-dark lg:px-30 justify-end text-start w-full border-black">
+        <section id="questions" class=" text-dark p-5 lg:px-30 justify-end text-start mt-10 w-full border-black">
                     <details class="border-b-1 border-t-1 border-black">
                         <summary class="text-2xl p-4 font-black">WHAT IS UI AND UX</summary>
                         <p class="p-4 text-lg">
@@ -42,11 +42,11 @@
                         </p>
                     </details>
     </section>
-    <div class='link-section lg:px-30 font-black text-center items-center lg:gap-3 flex-wrap justify-between  lg:flex-nowrap flex w-full mt-10'>
-        <p>&copy; {new Date().getFullYear()} RODY.CITY All rights reserved.</p>
-        <div translate="no" class='flex gap-10 flex-wrap  z-40    items-center justify-center'>
+    <div class='link-section  font-black text-center items-center lg:gap-3 flex-wrap justify-between  lg:flex-nowrap flex w-full mt-10'>
+        <p class="w-full">&copy; {new Date().getFullYear()} RODY.CITY All rights reserved.</p>
+        <div translate="no" class='flex gap-10 flex-wrap  w-full  items-center justify-center'>
          {#each socials as social, index (social.name)}
-            <a class='border-b-1 border-white duration-200 hover:bg-white hover:text-black'href={social.url}>{social.name}</a>
+            <a class='border-b-1 border-white duration-200 lg:mt-0 mt-10 hover:bg-white hover:text-black'href={social.url}>{social.name}</a>
          {/each}
         </div>
     </div>
