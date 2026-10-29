@@ -65,7 +65,21 @@
     animation: show-down .8s ease-in-out ;
 }
 
+@keyframes startshow {
+  0%, 24% {
 
+  }
+  24%, 50% {
+
+  }
+  50%, 100% {
+
+  }
+}
+
+.start-show {
+  animation: startshow 2s ease-in;
+}
 
 
 

@@ -36,7 +36,7 @@
 <section id="papers-container" class='flex items-center flex-col font-departure font-bold '>
     <section id='profile-content' class='flex w-full items-center justify-center '>
         <div class='flex gap-10 flex-col items-center justify-center lg:w-1/3 w-full'>
-            <article class='border-1 w-full dark:border-gray-200/10 border-gray-400/30 flex flex-col '>
+            <article class='border-1 w-full  dark:border-gray-200/10 border-gray-400/30 flex flex-col '>
                     <ol class="flex gap-3 w-full flex-col scale-75 lg:scale-100 paper-cli flex-wrap items-left p-5">
                         {#each papers as papers, index (papers.name)}
                             <li >

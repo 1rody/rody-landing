@@ -11,7 +11,7 @@
     };
 </script>
             <main class='flex items-center flex-col font-departure font-bold '>
-                    <section id='profile-header' class='flex   lg:w-1/3 w-full  text-5xl items-center justify-center'>
+                    <section id='profile-header' class='flex  dark:text-white text-black  lg:w-1/3 w-full  text-5xl items-center justify-center'>
                         <div class='border-b-1 w-2/4 dark:border-gray-200/10 border-b-gray-300/50 p-1'>
 
                         </div >
@@ -21,7 +21,7 @@
                         </div>
                     </section>
                     <section id='profile-content' class='flex mb-10 mt-20 w-full items-center justify-center '>
-                        <div class='flex gap-10 flex-col items-center justify-center lg:w-1/3 w-full'>
+                        <div class='flex gap-10 flex-col items-center dark:text-white text-black  justify-center lg:w-1/3 w-full'>
                             <article class='border-1 w-full dark:border-gray-200/10 border-gray-300/50 flex flex-col '>
                                 <div class='flex  border-b-1 dark:border-gray-200/10 border-b-gray-300/50 p-3 mb-5 justify-between w-full'>
                                     <h2>[0x00]</h2>

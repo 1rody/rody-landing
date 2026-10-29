@@ -5,14 +5,14 @@
 </script>
 
 <section id="about" class=" z-6 relative p-10 flex-col min-h-screen lg:sticky top-[2px]  w-full flex items-center justify-center">
-        <div class="bg-black border-1 border-gray-400/20 flex rounded-2xl items-center flex-col">
-        <div class=" border-gray-400/20 border-b-1 flex justify-between font-pixel w-full text-white font-black p-2 ">
-            <p>-</p>
-            <p>WHOAMI</p>
-            <p>□</p>
-        </div>
+                <div class="bg-black border-1 lg:max-w-3/4 border-gray-400/20 flex rounded-2xl items-center flex-col">
+                    <div class=" border-gray-400/20 border-b-1 flex justify-between font-pixel w-full text-white font-black p-2 ">
+                        <p>-</p>
+                        <p>WHOAMI</p>
+                        <p>□</p>
+                    </div>
                     <div class="w-full lg:flex-nowrap flex-wrap  text-white flex items-center justify-center">
-                        <section id="whoami" class="mt-20 p-5 pb-20 flex flex-col items-start justify-center ">
+                        <section id="whoami" class="mt-4 p-5 pb-20 flex flex-col items-start justify-center ">
                             <p class="text-sm font-black uppercase text-gray-400 lg:text-left text-center lg:mb-0 mb-5">Rodolfo Rocha Falcao - Software engenierr</p>
                             <h1 class="lg:text-6xl md:text-6xl text-4xl  lg:text-left text-center font-geist font-black uppercase">Let’s bring <br> your idea to life<span class="animate-pulse">_</span></h1>
                             <article class=" flex flex-col gap-8 lg:text-left mt-5 text-gray-200 text-center font-medium max-w-2xl text-lg">

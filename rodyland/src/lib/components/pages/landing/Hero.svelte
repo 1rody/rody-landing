@@ -6,7 +6,7 @@
 
 
 <section id="hero" class="h-screen w-full flex flex-col items-center justify-center overflow-hidden">
-        <h1 class="dark:text-white mb-20 text-30xl  font-geist font-black text-left  z-2 overflow-hidden uppercase leading-none"> rody</h1>
+        <h1 class="dark:text-white mb-20 text-30xl  font-geist font-black text-left  z-2 overflow-hidden uppercase start-show leading-none"> rody</h1>
         <section id="history" class="w-full bottom-3 absolute font-geist  dark:text-white text-black lg:flex-nowrap  ">
                     <div id="my-perspective-on-web" class="hidden lg:flex w-full lg:p-20 items-center justify-between">
                         <h2 class="lg:text-lg md:w-full lg:w-fit text-left text-7xl font-black">
