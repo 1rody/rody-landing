@@ -8,6 +8,7 @@
   --text-base: #0a0a0a;
   --text-base-invert: #ffffff;
   --font-pixelify: "Pixelify Sans", sans-serif;
+  --font-climate: "Climate Crisis Variable", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

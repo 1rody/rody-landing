@@ -21,15 +21,23 @@
 
 </script>
 
-<header id="topbar"  class="w-full show-down-anim flex items-center justify-center mix-blend-difference fixed p-2 z-30">
+<header id="topbar"  class="w-full show-down-anim flex items-center justify-center mix-blend-difference lg:absolute fixed p-2 z-30">
     <nav  class="flex items-center  uppercase text-sm justify-between  lg:px-20 font-black w-full border-b-1 p-2">
         <div class="border-white/10 border-r-1 lg:hidden flex px-3">
             <a href="/"><img src={favicon} alt="Logo" /></a>
         </div>
-            <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="#projects">Projects</a>
-            <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="https://www.github.com/1rody/">Github</a>
-            <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="/">contact</a>
-            <a onmouseenter={playHover} class="text-white font-geist  hover:bg-white hover:text-black duration-200 lg:flex hidden" href="/papers">Papers</a>
+            <div class="flex flex-col lowercase text-2xl mt-5 text-white">
+                <p> Minimalism isn't about remove  <br>is about the message.</p>
+                <a onmouseenter={playHover} class=" text-lg font-light w-fit mt-5 bg-white rounded-4xl p-4 text-black hover:bg-black hover:text-white hover:rounded-0 hover:border-white border-1 duration-200 lg:flex hidden" href="#projects">Talk with me -></a>
+
+            </div>
+            <div class="flex right-10   gap-5 uppercase text-xl fixed text-white">
+                <a onmouseenter={playHover} class=" text-lg font-geist w-fit text-white hover:bg-white hover:text-black hover:rounded-0 duration-200 lg:flex hidden" href="#projects">Github</a>
+
+                <p>/</p>
+                <a onmouseenter={playHover} class=" text-lg font-geist w-fit text-white hover:bg-white hover:text-black hover:rounded-0 duration-200 lg:flex hidden" href="#projects">Linkedin</a>
+
+            </div>
         <div class="border-white/10 lg:hidden flex border-l-1 px-3">
             <button  onmouseenter={() => isOpen = true} aria-label="open menu" ><Menu class="text-white duration-200 transform {isOpen ? 'translate-x-0' : 'translate-x-full'} " /></button>
         </div>

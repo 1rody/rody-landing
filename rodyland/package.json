@@ -25,6 +25,7 @@
 		"#lib/*": "./src/lib/*"
 	},
 	"dependencies": {
+		"@fontsource-variable/climate-crisis": "^5.3.0",
 		"@fontsource/geist": "^5.3.0",
 		"@fontsource/pixelify-sans": "^5.3.0",
 		"@humanspeak/svelte-markdown": "^2.1.3",

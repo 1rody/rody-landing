@@ -3,7 +3,9 @@
   import '@fontsource/pixelify-sans/500.css';
   import '@fontsource/pixelify-sans/600.css';
   import '@fontsource/pixelify-sans/700.css';
-  
+  import '@fontsource-variable/climate-crisis';
+  import '#lib/styles/globals.css';
+    
   import '#lib/styles/globals.css';
 
   import favicon from '#lib/assets/favicon.svg';

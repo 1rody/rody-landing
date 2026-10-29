@@ -1,7 +1,7 @@
-@import url(./themes.css);
-@import url(./animations.css);
+@import url('./themes.css');
+@import url('./animations.css');
 
-@import "tailwindcss";
+@import 'tailwindcss';
 
 body {
     background-color: var(--background);
@@ -10,8 +10,9 @@ body {
 @theme {
     --color-background: var(--background);
     --color-foreground: var(--foreground);
-    --font-pixel: "Pixelify Sans", sans-serif;
-    --font-geist: "Geist sans", sans-serif;
-    --text-20xl: clamp(4.5rem, 10vw + 1rem, 55rem);
-    --text-30xl: clamp(4.5rem, 30vw + 1rem, 55rem);
+    --font-pixel: 'Pixelify Sans', sans-serif;
+    --font-geist: 'Geist Sans', sans-serif;
+    --font-climate: 'Climate Crisis Variable', sans-serif;
+    --text-20xl: clamp(4.5rem, 20vw + 1rem, 55rem);
+    --text-30xl: clamp(4.5rem, 20vw + 1rem, 55rem);
 }
