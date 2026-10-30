@@ -5,6 +5,16 @@
     import unseen from "#lib/assets/backgrounds/projects/Unseen.png";
     import TransitionImage from "#lib/assets/backgrounds/PIXEL.svg";
 
+    //motion
+    import { animate, scroll } from "motion"
+    
+    //scale the element returing scroll + animation
+    function scrollProgress(element) {
+        return scroll(
+        animate(element, { scale: [1, 0.4] }, { ease: "linear" })
+        );
+    }
+    
     const projects = [
         {
             title: "Arkhan",

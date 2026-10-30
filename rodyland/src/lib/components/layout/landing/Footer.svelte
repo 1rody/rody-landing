@@ -42,9 +42,9 @@
                         </p>
                     </details>
     </section>
-    <div class='link-section  font-black text-center items-center lg:gap-3 flex-wrap justify-between  lg:flex-nowrap flex w-full mt-10'>
+    <div class='link-section flex w-full items-center px-30 justify-center'>
         <p class="w-full">&copy; {new Date().getFullYear()} RODY.CITY All rights reserved.</p>
-        <div translate="no" class='flex gap-10 flex-wrap  w-full  items-center justify-center'>
+        <div translate="no" class='flex gap-4 lg:flex-nowrap flex-wrap items-center justify-center'>
          {#each socials as social, index (social.name)}
             <a class='border-b-1 border-white duration-200 lg:mt-0 mt-10 hover:bg-white hover:text-black'href={social.url}>{social.name}</a>
          {/each}

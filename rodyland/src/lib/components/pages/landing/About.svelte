@@ -1,17 +1,25 @@
 <script>
     import Stackbox from "#lib/assets/backgrounds/misc/Stackbox.svg";
-    import RodyBackground from '#lib/assets/backgrounds/PixelPlains.svg';
 
+    //motion
+    import { animate, scroll } from "motion"
+    
+    //scale the element returing scroll + animation
+    function scrollProgress(element) {
+        return scroll(
+        animate(element, { scale: [1, 0.4] }, { ease: "linear" })
+        );
+    }
 </script>
 
-<section id="about" class=" z-6 relative p-10 flex-col min-h-screen lg:sticky top-[2px]  w-full flex items-center justify-center">
-                <div class="bg-black border-1 lg:max-w-3/4 border-gray-400/20 flex rounded-2xl items-center flex-col">
+<section id="about" class=" z-6 relative p-4 flex-col min-h-screen lg:sticky top-[2px]  w-full flex items-center justify-center">
+                <div {@attach scrollProgress} class="bg-black w-full border-1  border-gray-400/20 flex rounded-xl h-screen items-center flex-col">
                     <div class=" border-gray-400/20 border-b-1 flex justify-between font-pixel w-full text-white font-black p-2 ">
                         <p>-</p>
                         <p>WHOAMI</p>
                         <p>□</p>
                     </div>
-                    <div class="w-full lg:flex-nowrap flex-wrap  text-white flex items-center justify-center">
+                    <div class="w-full lg:flex-nowrap flex-wrap h-full  text-white flex items-center justify-center">
                         <section id="whoami" class="mt-4 p-5 pb-20 flex flex-col items-start justify-center ">
                             <p class="text-sm font-black uppercase text-gray-400 lg:text-left text-center lg:mb-0 mb-5">Rodolfo Rocha Falcao - Software engenierr</p>
                             <h1 class="lg:text-6xl md:text-6xl text-4xl  lg:text-left text-center font-geist font-black uppercase">Let’s bring <br> your idea to life<span class="animate-pulse">_</span></h1>

@@ -1,7 +1,6 @@
 <script>
-    import RodyBanner from '#lib/assets/backgrounds/rody.svg'; 
-    import RodyBackground from '#lib/assets/backgrounds/PixelPlains.svg';
-    import { ChevronDown } from 'lucide-svelte';
+    import { animate, scroll } from "motion"
+
 </script>
 
 
