@@ -2,12 +2,12 @@
     import Navbar from "#lib/components/layout/landing/NavBar.svelte";
     import Footer from "#lib/components/layout/landing/Footer.svelte";
 
-    import Hero from "#lib/components/pages/landing/Hero.svelte";
-    import Stars from "#lib/components/pages/landing/misc/Stars.svelte";
-    import About from "#lib/components/pages/landing/About.svelte";
-    import Projects from "#lib/components/pages/landing/Projects.svelte";
+    import Hero from "#lib/components/sections/landing/Hero.svelte";
+    import Stars from "#lib/components/sections/landing/misc/Stars.svelte";
+    import About from "#lib/components/sections/landing/About.svelte";
+    import Projects from "#lib/components/sections/landing/Projects.svelte";
 
-    import  FakeLoading from "#lib/components/pages/landing/Loading.svelte";
+    import  FakeLoading from "#lib/components/sections/landing/Loading.svelte";
 
     //motion anim
     import { animate, scroll } from "motion"

@@ -1,0 +1,299 @@
+{
+  ".svelte-kit/generated/build/env/config.js": {
+    "file": "env.js",
+    "name": "env",
+    "src": ".svelte-kit/generated/build/env/config.js",
+    "isEntry": true
+  },
+  "_favicon.js": {
+    "file": "chunks/favicon.js",
+    "name": "favicon"
+  },
+  "_index-server.js": {
+    "file": "chunks/index-server.js",
+    "name": "index-server",
+    "imports": [
+      "_server.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_server-errors.js"
+    ]
+  },
+  "_server-errors.js": {
+    "file": "chunks/server-errors.js",
+    "name": "server-errors"
+  },
+  "_server.js": {
+    "file": "chunks/server.js",
+    "name": "server"
+  },
+  "_state.js": {
+    "file": "chunks/state.js",
+    "name": "state",
+    "imports": [
+      "_server-errors.js",
+      "_server.js",
+      "_index-server.js"
+    ]
+  },
+  "node_modules/@fontsource-variable/climate-crisis/files/climate-crisis-cyrillic-ext-year-normal.woff2": {
+    "file": "_app/immutable/assets/climate-crisis-cyrillic-ext-year-normal.DEzOMItJ.woff2",
+    "src": "node_modules/@fontsource-variable/climate-crisis/files/climate-crisis-cyrillic-ext-year-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/climate-crisis/files/climate-crisis-cyrillic-year-normal.woff2": {
+    "file": "_app/immutable/assets/climate-crisis-cyrillic-year-normal.CIvkCwNm.woff2",
+    "src": "node_modules/@fontsource-variable/climate-crisis/files/climate-crisis-cyrillic-year-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/climate-crisis/files/climate-crisis-latin-ext-year-normal.woff2": {
+    "file": "_app/immutable/assets/climate-crisis-latin-ext-year-normal.BaVH2xEl.woff2",
+    "src": "node_modules/@fontsource-variable/climate-crisis/files/climate-crisis-latin-ext-year-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/climate-crisis/files/climate-crisis-latin-year-normal.woff2": {
+    "file": "_app/immutable/assets/climate-crisis-latin-year-normal.DIvupWWv.woff2",
+    "src": "node_modules/@fontsource-variable/climate-crisis/files/climate-crisis-latin-year-normal.woff2"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-cyrillic-400-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-cyrillic-400-normal.DfOZNMlW.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-cyrillic-400-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-cyrillic-500-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-cyrillic-500-normal.CR9SIKMr.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-cyrillic-500-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-cyrillic-600-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-cyrillic-600-normal.B3EuUOZG.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-cyrillic-600-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-cyrillic-700-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-cyrillic-700-normal.BrZTw8tu.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-cyrillic-700-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-400-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-400-normal.JapMNN6Z.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-400-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-400-normal.DLrIX9QE.woff2",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-500-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-500-normal.Bq6pAlou.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-500-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-500-normal.woff2": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-500-normal.DC052d-m.woff2",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-500-normal.woff2"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-600-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-600-normal.BNlgYbDL.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-600-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-600-normal.woff2": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-600-normal.Dd_Dy7u5.woff2",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-600-normal.woff2"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-700-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-700-normal.BctWAS0u.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-700-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-700-normal.woff2": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-700-normal.D3Xxx3QE.woff2",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-700-normal.woff2"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-400-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-ext-400-normal.BkfTUL4s.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-ext-400-normal.DdH6zlBQ.woff2",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-500-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-ext-500-normal.Bkr-oq6R.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-500-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-500-normal.woff2": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-ext-500-normal.BHT4w5qI.woff2",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-500-normal.woff2"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-600-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-ext-600-normal.CDaIumwU.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-600-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-600-normal.woff2": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-ext-600-normal.Dha6RiOG.woff2",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-600-normal.woff2"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-700-normal.woff": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-ext-700-normal.BadXkHzZ.woff",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-700-normal.woff"
+  },
+  "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-700-normal.woff2": {
+    "file": "_app/immutable/assets/pixelify-sans-latin-ext-700-normal.ClyJstAh.woff2",
+    "src": "node_modules/@fontsource/pixelify-sans/files/pixelify-sans-latin-ext-700-normal.woff2"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js": {
+    "file": "remote-entry.js",
+    "name": "remote-entry",
+    "src": "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_server-errors.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_server.js",
+      "_state.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ],
+    "dynamicImports": [
+      "node_modules/@sveltejs/kit/src/runtime/server/instance.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/instance.js": {
+    "file": "chunks/instance.js",
+    "name": "instance",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/instance.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_internal.js",
+      "_server-errors.js",
+      ".svelte-kit/generated/build/env/config.js",
+      "_server.js"
+    ]
+  },
+  "src/lib/assets/backgrounds/misc/Stackbox.svg": {
+    "file": "_app/immutable/assets/Stackbox.DXv5paDz.svg",
+    "src": "src/lib/assets/backgrounds/misc/Stackbox.svg"
+  },
+  "src/lib/assets/backgrounds/projects/Unseen.png": {
+    "file": "_app/immutable/assets/Unseen.TpA4qjDc.png",
+    "src": "src/lib/assets/backgrounds/projects/Unseen.png"
+  },
+  "src/lib/assets/backgrounds/projects/arkhan.png": {
+    "file": "_app/immutable/assets/arkhan.vf4L-_U0.png",
+    "src": "src/lib/assets/backgrounds/projects/arkhan.png"
+  },
+  "src/lib/assets/backgrounds/projects/karasuBanner.png": {
+    "file": "_app/immutable/assets/karasuBanner.3a2Wqwge.png",
+    "src": "src/lib/assets/backgrounds/projects/karasuBanner.png"
+  },
+  "src/lib/assets/backgrounds/rody.svg": {
+    "file": "_app/immutable/assets/rody.CjmizQGM.svg",
+    "src": "src/lib/assets/backgrounds/rody.svg"
+  },
+  "src/lib/assets/icons/pfp.jpg": {
+    "file": "_app/immutable/assets/pfp.DfLOcymg.jpg",
+    "src": "src/lib/assets/icons/pfp.jpg"
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_server.js",
+      "_favicon.js",
+      "_index-server.js",
+      "_state.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.Bso4oT5V.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/pixelify-sans-cyrillic-400-normal.DfOZNMlW.woff",
+      "_app/immutable/assets/pixelify-sans-latin-ext-400-normal.DdH6zlBQ.woff2",
+      "_app/immutable/assets/pixelify-sans-latin-ext-400-normal.BkfTUL4s.woff",
+      "_app/immutable/assets/pixelify-sans-latin-400-normal.DLrIX9QE.woff2",
+      "_app/immutable/assets/pixelify-sans-latin-400-normal.JapMNN6Z.woff",
+      "_app/immutable/assets/pixelify-sans-cyrillic-500-normal.CR9SIKMr.woff",
+      "_app/immutable/assets/pixelify-sans-latin-ext-500-normal.BHT4w5qI.woff2",
+      "_app/immutable/assets/pixelify-sans-latin-ext-500-normal.Bkr-oq6R.woff",
+      "_app/immutable/assets/pixelify-sans-latin-500-normal.DC052d-m.woff2",
+      "_app/immutable/assets/pixelify-sans-latin-500-normal.Bq6pAlou.woff",
+      "_app/immutable/assets/pixelify-sans-cyrillic-600-normal.B3EuUOZG.woff",
+      "_app/immutable/assets/pixelify-sans-latin-ext-600-normal.Dha6RiOG.woff2",
+      "_app/immutable/assets/pixelify-sans-latin-ext-600-normal.CDaIumwU.woff",
+      "_app/immutable/assets/pixelify-sans-latin-600-normal.Dd_Dy7u5.woff2",
+      "_app/immutable/assets/pixelify-sans-latin-600-normal.BNlgYbDL.woff",
+      "_app/immutable/assets/pixelify-sans-cyrillic-700-normal.BrZTw8tu.woff",
+      "_app/immutable/assets/pixelify-sans-latin-ext-700-normal.ClyJstAh.woff2",
+      "_app/immutable/assets/pixelify-sans-latin-ext-700-normal.BadXkHzZ.woff",
+      "_app/immutable/assets/pixelify-sans-latin-700-normal.D3Xxx3QE.woff2",
+      "_app/immutable/assets/pixelify-sans-latin-700-normal.BctWAS0u.woff",
+      "_app/immutable/assets/climate-crisis-cyrillic-ext-year-normal.DEzOMItJ.woff2",
+      "_app/immutable/assets/climate-crisis-cyrillic-year-normal.CIvkCwNm.woff2",
+      "_app/immutable/assets/climate-crisis-latin-ext-year-normal.BaVH2xEl.woff2",
+      "_app/immutable/assets/climate-crisis-latin-year-normal.DIvupWWv.woff2"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_server.js",
+      "_favicon.js",
+      "_index-server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.x1XGuNl0.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/Stackbox.DXv5paDz.svg",
+      "_app/immutable/assets/arkhan.vf4L-_U0.png",
+      "_app/immutable/assets/karasuBanner.3a2Wqwge.png",
+      "_app/immutable/assets/Unseen.TpA4qjDc.png"
+    ]
+  },
+  "src/routes/paper/[slug]/+page.svelte": {
+    "file": "entries/pages/paper/_slug_/_page.svelte.js",
+    "name": "entries/pages/paper/_slug_/_page.svelte",
+    "src": "src/routes/paper/[slug]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_server.js",
+      "_index-server.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.nNRn7XR0.css"
+    ]
+  },
+  "src/routes/paper/[slug]/+page.ts": {
+    "file": "entries/pages/paper/_slug_/_page.ts.js",
+    "name": "entries/pages/paper/_slug_/_page.ts",
+    "src": "src/routes/paper/[slug]/+page.ts",
+    "isEntry": true
+  },
+  "src/routes/papers/+page.svelte": {
+    "file": "entries/pages/papers/_page.svelte.js",
+    "name": "entries/pages/papers/_page.svelte",
+    "src": "src/routes/papers/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_server.js"
+    ],
+    "assets": [
+      "_app/immutable/assets/pfp.DfLOcymg.jpg"
+    ]
+  }
+}
