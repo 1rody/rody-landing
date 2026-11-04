@@ -1,0 +1,32 @@
+import { Feature, hover, frame, extractEventInfo } from 'motion-dom';
+
+/**
+ * Toggle `while{gesture}` and fire `on{gesture}{lifecycle}`, e.g.
+ * `onHoverStart` or, with an empty lifecycle, `onTap`.
+ */
+function handleGestureEvent(node, event, gesture, lifecycle) {
+    const { props } = node;
+    const whileKey = ("while" + gesture);
+    if (node.animationState && props[whileKey]) {
+        node.animationState.setActive(whileKey, lifecycle === "Start");
+    }
+    const callback = props[("on" + gesture + lifecycle)];
+    if (callback) {
+        frame.postRender(() => callback(event, extractEventInfo(event)));
+    }
+}
+class HoverGesture extends Feature {
+    mount() {
+        const { current } = this.node;
+        if (!current)
+            return;
+        this.unmount = hover(current, (_element, startEvent) => {
+            handleGestureEvent(this.node, startEvent, "Hover", "Start");
+            return (endEvent) => handleGestureEvent(this.node, endEvent, "Hover", "End");
+        });
+    }
+    unmount() { }
+}
+
+export { HoverGesture, handleGestureEvent };
+//# sourceMappingURL=hover.mjs.map
