@@ -13,7 +13,7 @@
 
 <section id="about" class=" z-6 relative p-4 flex-col min-h-screen lg:sticky top-[2px]  w-full flex items-center justify-center">
                 <div {@attach scrollProgress} class="bg-black w-full border-1  border-gray-400/20 flex rounded-xl h-screen items-center flex-col">
-                    <div class=" border-gray-400/20 border-b-1 flex justify-between font-pixel w-full text-white font-black p-2 ">
+                    <div translate="no" class=" border-gray-400/20 border-b-1  flex justify-between font-pixel w-full text-white font-black p-2 ">
                         <p>-</p>
                         <p>WHOAMI</p>
                         <p>□</p>

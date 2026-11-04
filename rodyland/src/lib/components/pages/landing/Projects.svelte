@@ -5,16 +5,6 @@
     import unseen from "#lib/assets/backgrounds/projects/Unseen.png";
     import TransitionImage from "#lib/assets/backgrounds/PIXEL.svg";
 
-    //motion
-    import { animate, scroll } from "motion"
-    
-    //scale the element returing scroll + animation
-    function scrollProgress(element) {
-        return scroll(
-        animate(element, { scale: [1, 0.4] }, { ease: "linear" })
-        );
-    }
-
     const projects = [
         {
             title: "Arkhan",
@@ -54,17 +44,17 @@
     }
     }
 </style>
-<img src={TransitionImage} class="w-full z-6 relative lg:-mb-20" alt="transition">
-<section id="projects" class=" flex-col min-h-screen flex relative z-9 items-center justify-center  bg-white  lg:p-20">
+<img src={TransitionImage} class="w-full z-9 relative -mb-20" alt="transition">
+<section id="projects" class=" flex-col flex min-h-screen items-center justify-center overflow-hidden bg-white z-9 relative lg:p-20">
     <h2 class="font-pixel  max-w-3/4 lg:text-7xl text-3xl mt-20 text-center">Why design, code or work with me?</h2>
     <p class="text-center mt-5 max-w-3/4">Great design is more than visuals. It’s about creating intuitive, impactful, memorable experiences and show it to the user...</p>
-    <div id="project-section" class="relative sticky min-h-screen mt-30 z-10 mb-10 flex flex-col w-full overflow-hidden items-center justify-center p-5 gap-40">
+    <div id="project-section" class="relative mt-30 z-10 mb-10 flex w-full flex-col overflow-hidden items-center justify-center p-5 gap-40">
     <!-- Migracao para svelte (de projects.map to #each) -->
     {#each projects as project, index (project.title)}
             <div class="flex items-center flex-wrap lg:flex-nowrap w-full justify-center  {index % 2 === 1 ? 'lg:flex-row-reverse flex-col lg:flex-nowrap lg:text-right' : ''}" >
-            <img alt={`${project.title} project image`} src={project.image} class=" duration-200 hover:scale-106 lg:max-h-140 lg:max-w-220 overflow-hidden  w-full" />
+            <img alt={`${project.title} project image`} src={project.image} class="lg:max-w-1/2 duration-200 hover:scale-106 lg:max-h-150 lg:w-280 overflow-hidden lg:h-160 w-full" />
             <div class="flex flex-col p-10  text-black">
-                <h2 class="lg:text-7xl uppercase text-4xl font-black">
+                <h2 translate="no" class="lg:text-7xl uppercase  text-4xl font-black">
                     {project.title}
                 </h2>
                 <article class="flex flex-col w-fit lg:text-2xl gap-8 justify-between {index % 2 === 1 ? 'flex-col lg:items-end lg:w-full max-w-full justify-end' : ''}">

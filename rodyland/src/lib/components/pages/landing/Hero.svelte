@@ -11,7 +11,7 @@
             with you...
             </p>
         <h1 class="dark:text-white text-20xl lg:mt-20 flex items-center justify-center flex-wrap font-climate font-bold w-full z-2 overflow-hidden text-center uppercase start-show leading-none"> rody' </h1>
-            <div class="z-40 h-fit duration-200 text-white p-4 gap-10 hidden lg:flex w-full px-10 justify-between">
+            <div translate="no" class="z-40  h-fit duration-200 text-white p-4 gap-10 hidden lg:flex w-full px-10 justify-between">
                 <a class="hover:bg-foreground hover:text-background" href="/socials">Socials</a>
                 <a class="hover:bg-foreground hover:text-background" href="/papers">Papers</a>
                 <a class="hover:bg-foreground hover:text-background" href="/linkedin">Linkedin</a>
