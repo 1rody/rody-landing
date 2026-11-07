@@ -1,8 +1,16 @@
-## Decisoes de Projeto.
+# Decisões de Projeto
 
-Design preto e branco reforcado(oque e isso)
-em resumo no tema light, quem o utiliza consicnetemente PREFERE um visual white, portanto para melhorar o contraste visibilidade e manter o site adequado as preferencias do user, as seccoes que eram DARK se invertem e as que eram light, se mantem com o tema claro, assim criando uma pagina PURE WHITE 
-em quanto isso no tema escuro, quem o usa prefere uma interface all black, mas a area de projetos ja tem sites que por padrao tem o tema dark, entao ao criar a UI usando cores duplas no tema dark priorizo o escuro mas mantenho o claro
+## Design Preto e Branco Reforçado
 
-bun utilizado pela sua leveza e eficiencia, anmtes utilizave pnpm pelo mesmo motivo ate conhecer a tecnologia
+Optamos por um design com forte contraste entre preto e branco, adaptado ao tema escolhido pelo usuário:
 
+- **Tema Light**  
+  Usuários que preferem o tema claro geralmente gostam de interfaces mais claras e limpas. Por isso, as seções que originalmente eram escuras foram invertidas para o tema claro, resultando em uma página **Pure White**. Isso melhora o contraste, a legibilidade e respeita a preferência do usuário.
+
+- **Tema Dark**  
+  Usuários do tema escuro preferem uma interface predominantemente preta. Como a área de projetos já possui sites com tema dark por padrão, utilizamos cores duplas priorizando o escuro, mas mantendo alguns elementos claros para equilíbrio visual e legibilidade.
+
+## Ferramenta de Build
+
+Utilizamos o **Bun** por sua leveza e eficiência.  
+Anteriormente usávamos o **pnpm** pelo mesmo motivo, até conhecermos o Bun.
