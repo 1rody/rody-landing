@@ -10,6 +10,7 @@ body {
 @theme {
     --color-background: var(--background);
     --color-foreground: var(--foreground);
+    --color-base: var(--text-base);
     --font-pixel: 'Pixelify Sans', sans-serif;
     --font-geist: 'Geist Sans', sans-serif;
     --font-climate: 'Climate Crisis Variable', sans-serif;

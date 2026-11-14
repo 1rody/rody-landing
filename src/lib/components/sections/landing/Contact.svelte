@@ -5,7 +5,7 @@
   let sending = $state(false);
 </script>
 
-<section id="contact" class="flex  z-8 relative flex-col items-center justify-center w-full h-full py-20 bg-white text-dark">
+<section id="contact" class="flex  z-8 relative flex-col items-center justify-center w-full h-full py-20 bg-foreground text-dark">
      <section id="message-form" class="flex flex-col bg-white border-1 border-black lg:shadow-xl   lg:w-2/3 items-center justify-center  h-full p-5 lg:px-30 text-dark">
         <h1 class="lg:text-8xl lg:p-8 text-5xl text-center flex font-climate flex-nowrap uppercase font-black leading-none">Get in touch</h1>
         <p>send me a message or connect with me on social media</p>
