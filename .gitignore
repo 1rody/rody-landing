@@ -1,1 +1,11 @@
 .env
+
+# env / segredos
+.env
+.env.*
+!.env.example
+
+# build do SvelteKit
+.svelte-kit/
+build/
+node_modules/
