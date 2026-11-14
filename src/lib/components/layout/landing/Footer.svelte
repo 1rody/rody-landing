@@ -7,10 +7,10 @@
         url: string;
     }
     const socials: Social[] = [
-            {name: "Github", url: "https://github.com/1R0-DY"},
-            {name: "X", url: "https://x.com/1R0_DY"},
+            {name: "Github", url: "https://github.com/1rody"},
             {name: "Linkedin", url: "https://www.linkedin.com/in/rody-1r0-dy/"},
-            {name: "Pinterest", url: "https://www.pinterest.com/1r0dy_/"},
+            {name: "Email", url: "mailto:comercial.rodolfo@proton.me"},
+            {name: "Linktee", url: "google.com"},
     ];
 </script>
 
@@ -107,12 +107,12 @@
         </p>
     </details>
 </section>
-    <div class='link-section flex w-full items-center px-30 justify-center'>
-        <p class="w-full">&copy; {new Date().getFullYear()} RODY.CITY All rights reserved.</p>
-        <div translate="no" class='flex gap-4 lg:flex-nowrap flex-wrap items-center justify-center'>
+    <div class='link-section flex w-full items-center flex-wrap  gap-5 text-center lg:text-normal lg:px-30 justify-center'>
+        <div translate="no" class='gap-5 lg:flex-row flex-col flex lg:w-fit w-full lg:p-1 p-10 '>
          {#each socials as social, index (social.name)}
-            <a class='border-b-1 border-white duration-200 lg:mt-0 mt-10 hover:bg-white hover:text-black'href={social.url}>{social.name}</a>
+            <a class='duration-200 lg:bg-white lg:text-black bg-black text-white lg:hover:bg-white p-4 lg:p-0 w-full lg:w-fit lg:hover:text-black'href={social.url}>{social.name}</a>
          {/each}
         </div>
+        <p class="w-full font-black text-2xl">&copy; {new Date().getFullYear()} RODY.CITY All rights reserved.</p>
     </div>
 </footer>

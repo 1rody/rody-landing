@@ -35,6 +35,7 @@
 		"lucide-svelte": "^1.0.1",
 		"motion": "^14.8.0",
 		"motion-sv": "^0.2.2",
+		"resend": "^6.38.1",
 		"tailwindcss": "^4.3.3"
 	}
 }

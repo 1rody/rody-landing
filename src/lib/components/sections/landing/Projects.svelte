@@ -48,7 +48,10 @@
 <section id="projects" class=" flex-col flex min-h-screen items-center justify-center overflow-hidden bg-white z-9 relative lg:p-20">
     <h2 class="font-pixel  max-w-3/4 lg:text-7xl text-3xl mt-20 text-center">Why design, code or work with me?</h2>
     <p class="text-center mt-5 max-w-3/4">Great design is more than visuals. It’s about creating intuitive, impactful, memorable experiences and show it to the user...</p>
-    <div id="project-section" class="relative mt-30 z-10 mb-10 flex w-full flex-col overflow-hidden items-center justify-center p-5 gap-40">
+    <div class="w-full pb-20  pt-10 justify-center flex">
+        <a href=" " class="bg-black text-white p-3">View more on Project gallery</a>
+    </div>
+    <div id="project-section" class="relative  border-b-1 mt-30 z-10 mb-10 flex w-full flex-col overflow-hidden items-center justify-center p-5 gap-40">
     <!-- Migracao para svelte (de projects.map to #each) -->
     {#each projects as project, index (project.title)}
             <div class="flex items-center flex-wrap lg:flex-nowrap w-full justify-center  {index % 2 === 1 ? 'lg:flex-row-reverse flex-col lg:flex-nowrap lg:text-right' : ''}" >
@@ -68,6 +71,4 @@
     {/each}
     </div>
 
-    <div class="w-full pb-20  justify-center flex">
-    </div>
 </section>

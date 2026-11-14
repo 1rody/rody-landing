@@ -6,11 +6,13 @@
     import Stars from "#lib/components/sections/landing/misc/Stars.svelte";
     import About from "#lib/components/sections/landing/About.svelte";
     import Projects from "#lib/components/sections/landing/Projects.svelte";
+    import Contact from "#lib/components/sections/landing/Contact.svelte";
 
     import  FakeLoading from "#lib/components/sections/landing/Loading.svelte";
 
     //motion anim
     import { animate, scroll } from "motion"
+    //form 
 
     function scrollProgress(element) {
         return scroll(
@@ -31,5 +33,6 @@
     <Hero/>
     <About/>
     <Projects/>
+    <Contact />
 </main>
 <Footer/>
