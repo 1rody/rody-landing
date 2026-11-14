@@ -54,7 +54,7 @@
     <div id="project-section" class="relative  border-b-1 mt-30 z-10 mb-10 flex w-full flex-col overflow-hidden items-center justify-center p-5 gap-40">
     <!-- Migracao para svelte (de projects.map to #each) -->
     {#each projects as project, index (project.title)}
-            <div class="flex items-center flex-wrap lg:flex-nowrap w-full justify-center  {index % 2 === 1 ? 'lg:flex-row-reverse flex-col lg:flex-nowrap lg:text-right' : ''}" >
+            <div class="flex items-center flex-wrap lg:flex-nowrap w-full justify-center  {index % 2 === 1 ? 'lg:flex-row-reverse max-h-150 flex-col lg:flex-nowrap lg:text-right' : ''}" >
             <img alt={`${project.title} project image`} src={project.image} class="lg:max-w-1/2 duration-200 hover:scale-106 lg:max-h-150 lg:w-280 overflow-hidden lg:h-160 w-full" />
             <div class="flex flex-col p-10  text-black">
                 <h2 translate="no" class="lg:text-7xl uppercase  text-4xl font-black">
